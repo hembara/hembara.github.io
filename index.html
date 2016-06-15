@@ -403,20 +403,19 @@
                           </ul>
                     </address>
                 </div>
-
-                <div class="col-md-9">
-                    <form autocomplete="off">
+                <div class="col-md-9" >
+                    <form autocomplete="off" action="https://formspree.io/info@botscrew.com">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="email" class="form-control" placeholder="Email" name="_replyto">
                             </div>
                         </div>
-                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        <textarea name="text" class="form-control" rows="4" placeholder="Message"></textarea>
                         <div class="text-right">
-                            <a href="#" class="btn send-btn">Send</a>
+                            <input type="submit" value="Send" class="btn send-btn">
                         </div>
                     </form>
                 </div>
