@@ -24,7 +24,17 @@ function main() {
           }
         }
       });
+    
+    var figure = $(".video").hover( hoverVideo, hideVideo );
+    var figure1 = $(".video").click( hoverVideo);
 
+    function hoverVideo(e) {  
+        $('video', this).get(0).play(); 
+    }
+
+    function hideVideo(e) {
+        $('video', this).get(0).pause(); 
+    }
     /*====================================
     Menu Active Calling Scroll Spy
     ======================================*/
