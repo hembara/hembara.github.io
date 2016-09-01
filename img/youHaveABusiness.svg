@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="190px" height="190px" viewBox="0 0 190 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_2@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="150" height="150" rx="10"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="150" height="150" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="31.1612903" width="16" height="52.8387097"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="52.8387097" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="14" y="10.8387097" width="16" height="73.1612903"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="73.1612903" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="28" y="47.4193548" width="16" height="36.5806452"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="36.5806452" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="42" y="24.3870968" width="16" height="59.6129032"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="59.6129032" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="56" y="0" width="16" height="84"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="84" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="70" y="10.8387097" width="16" height="73.1612903"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="73.1612903" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="16" y="128" width="117" height="5" rx="2.5"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117" height="5" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_2" stroke="#00A1FF">
+            <g id="Group-2" transform="translate(20.000000, 20.000000)">
+                <use id="Rectangle" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="Group" transform="translate(32.000000, 46.000000)" stroke-width="4" fill="#FFFFFF">
+                    <use id="Rectangle-2" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                    <use id="Rectangle-2" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                    <use id="Rectangle-2" mask="url(#mask-8)" xlink:href="#path-7"></use>
+                    <use id="Rectangle-2" mask="url(#mask-10)" xlink:href="#path-9"></use>
+                    <use id="Rectangle-2" mask="url(#mask-12)" xlink:href="#path-11"></use>
+                    <use id="Rectangle-2" mask="url(#mask-14)" xlink:href="#path-13"></use>
+                </g>
+                <use id="Rectangle-2" mask="url(#mask-16)" stroke-width="4" fill="#00A1FF" xlink:href="#path-15"></use>
+                <circle id="Oval" stroke-width="2" fill="#FFFFFF" cx="15.5" cy="15.5" r="7.5"></circle>
+                <circle id="Oval" stroke-width="2" fill="#FFFFFF" cx="38.5" cy="15.5" r="7.5"></circle>
+                <circle id="Oval" stroke-width="2" fill="#FFFFFF" cx="61.5" cy="15.5" r="7.5"></circle>
+                <path d="M1,32 L149,32" id="Line" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -17,7 +17,7 @@ body, html{
 img{
     max-width: 100%;
 }
-h1{
+h1, .headingOfChapter{
 	font-weight: 700;
 	font-size: 46px;
 }
@@ -272,8 +272,8 @@ background-color: transparent;
     border-radius: 10px;
 }
 
-#meet-us h1{
-    margin-bottom: 50px;
+#meet-us h2{
+    margin-bottom: 70px;
     padding-top: 0px;
     margin-top: 0px;
 }
@@ -329,9 +329,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     width: 100%;
 }
 
-.whoAreBots h2{
+.whoAreBots h1{
     text-align: left;
     font-size: 30px;
+	text-transform:uppercase;
 }
 .whoAreBots p{
     padding: 20px 0px;
@@ -407,7 +408,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding-bottom: 80px;
 }
 .service img{
-    width: 250px;
+    width: 200px;
+	margin-top: -20px;
+	margin-bottom: 40px;
 }
 .portfolio-item .iphoneWrapper{
     padding-bottom: 20px;
@@ -427,8 +430,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin-left: 10px;
 }
 #works{
-    padding-bottom: 0px;
-    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
 }
 .service.correct img{
     width: 200px;
@@ -458,9 +466,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding-top: 20px;
 	font-family: 'Lato', sans-serif;
 }
-.service img{
-    width: 50%;
-}
+
 .service h4{
     font-size: 26px;
     color: #818181;
@@ -473,7 +479,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #about-us{
-    background: rgb(247, 247, 247);
+    
 }
 .team{
     background: white;
@@ -647,7 +653,7 @@ box-shadow:         2px 1px 7px 0px rgba(50, 50, 50, 0.53);
 }
 .team hr{
 	border-width: 2px;
-	border-color: #4776A4;
+	border-color: #3fa0ff;
 }
 .team:hover{
 	opacity: 1;
@@ -687,10 +693,15 @@ box-shadow:         2px 1px 7px 0px rgba(50, 50, 50, 0.53);
 }
 
 #contact{
-	background: #282f35;
+	background: #00c6ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
+    background: linear-gradient(to left, #00c6ff , #0072ff); 
 	padding: 100px 0;
+	padding-bottom: 0;
 	color: #ffffff;
 }
+
 
 ul.social li{
 	display: inline-block;
@@ -716,36 +727,46 @@ address:before{
   	text-rendering: auto;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  	color: #4776A4;
+  	color: #00c6ff;
   	vertical-align: middle;
   	margin-right: 15px;
-  	margin-left: -30px;
+  	
 }
 address{
 	font-style: italic;
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 1px;
+	color: #414141;
 }
 
+#contact .col-md-4 img{
+	width: 70%;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
 #contact input.form-control,
 #contact textarea.form-control {
-margin-bottom: 30px;
+margin-bottom: 24px;
+}
+
+#contact h2{
+	margin-bottom: 40px;
 }
 
 #contact .form-control {
 	display: block;
-	width: 100%;
-	height: 40px;
-	padding: 7px 12px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 23px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #555;
-	background-color: #1e2429;
+	background-color: #efefef;
 	background-image: none;
+    border-radius: 20px;
 	border: 0;
-	border-top: 2px solid transparent;
-	border-radius: 0;
+	border-top: 1px solid transparent;
 	box-shadow: none;
 	-webkit-transition: none;
 	transition: none;
@@ -753,45 +774,98 @@ margin-bottom: 30px;
 	transition: all 0.5s;
 }
 
+.btn.contact-but{background: #00c6ff;
+    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff);
+    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
+    background: linear-gradient(to left, #00c6ff , #0072ff);
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    float: none;
+    padding: 13px;
+    border-radius: 25px;}
+.btn.contact-but i{
+	padding-left: 10px;
+}
+textarea{
+	resize: none;
+	margin: 0 auto;
+}
+form p{
+	color: #adadad;
+	margin-top: -10px;
+}
+
+.social img{
+	width: 40px;
+	margin: 10px;
+	margin-bottom: -15px;
+}
+
 #contact .form-control:focus {
 	border-color: #4776A4;
 	outline: 0;
 	box-shadow: none;
+}
+#contact input{
+     background: #00c6ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
+    background: linear-gradient(to left, #00c6ff , #0072ff);
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 30px;
+	float: none;
+	padding: 13px;
+	border-radius: 25px;
+}
+#contact .container{
+    background: white;
+    width:80%;
+    border-radius: 40px;
+}
+#contact h2{
+    color: #484848;
+    font-weight: bold;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
-    font-style: italic;
 }
 input:-moz-placeholder, textarea:-moz-placeholder { 
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
-    font-style: italic;
 }
 input::-moz-placeholder, textarea::-moz-placeholder { 
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
-    font-style: italic;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
-    font-style: italic;
+}
+
+#contact .footer{
+	background: transparent;
+	width:80%;
+	margin: 0 auto;
 }
 
 nav#footer{
-	background: #282f35;
-	padding: 40px 0;
+	
+	padding: 40px 50px;
 	color: #ffffff;
-	border-bottom: 5px solid #4776A4;
+	
 }
 #footer span.fa{
 	color: #4776A4;
