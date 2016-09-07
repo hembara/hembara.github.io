@@ -9,15 +9,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bots Crew - chatbots development</title>
 	<meta name="description" content="Bots Crew - development of custom chatbot solutions for Facebook Messenger, Telegram, Skype, Slack and Kik using machine learning, NLP and artificial intelligence">
-	<meta name="keywords" content="bots, bot, chatbot, create chatbot, build chatbot, facebook messenger, messenger, ai, nlp, artificial intelligence">
+	<meta name="keywords" content="chatbot development company, messaging apps, bot, chatbot, build chatbot, facebook messenger, ai, nlp, artificial intelligence">
 	<meta name="author" content="BotsCrew.com">
 	<meta name="google-site-verification" content="ExORSsOiYs9d7BUv5SrI_aZ5fCwimvUzxhpmMKPsHtg" />
 	<!-- Favicons
     ================================================== -->
-	<link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.css">
@@ -35,7 +32,6 @@
 	
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
-	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -45,29 +41,35 @@
 </head>
 
 <body>
-	<!-- Off Canvas Navigation
-    ================================================== -->
-	<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-		<!--- Off Canvas Side Menu -->
-		<div class="close" data-toggle="offcanvas" data-target=".navmenu"> <span class="fa fa-close"></span> </div>
-		<div class="add-margin"></div>
-		<ul class="nav navmenu-nav">
-			<!--- Menu -->
-			<li><a href="#home" class="page-scroll">Home</a></li>
+	<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/BotscrewLogoSimple%202.png" alt="botscrew logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Home</a></li>
 			<li><a href="#meet-us" class="page-scroll">Overview</a></li>
 			<li><a href="#services" class="page-scroll">Services</a></li>
 			<li><a href="#works" class="page-scroll">Portfolio</a></li>
 			<li><a href="#about-us" class="page-scroll">About Us</a></li>
 			<li><a href="#contact" class="page-scroll">Contact Us</a></li>
-		</ul>
-		<!--- End Menu -->
-	</div>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 	<!--- End Off Canvas Side Menu -->
 	<!-- Home Section -->
 	<div id="home">
 		<div class="container text-center">
 			<!-- Navigation -->
-			<nav id="menu" data-toggle="offcanvas" data-target=".navmenu"> <span class="fa fa-bars"></span> </nav>
+<!--			<nav id="menu" data-toggle="offcanvas" data-target=".navmenu"> <span class="fa fa-bars"></span> </nav>-->
 			<div class="content">
 				<h4>We've got the special power</h4>
 				<hr>
@@ -90,7 +92,7 @@
 				<div class="col-md-4">
 					<div class="img-wrapper"> <img src="img/robot.png" alt=""> </div>
 					<h4>Make it more friendly!</h4>
-					<p>It`s easy! Let`s create a chat bot and make your customer fill like he is chatting with a friend.</p>
+					<p>It`s easy! Create a chat bot and make your customer fill like he is chatting with a friend.</p>
 				</div>
 				<div class="col-md-4">
 					<div class="img-wrapper"> <img src="img/feelTheGrowty.svg" alt=""> </div>
@@ -104,7 +106,7 @@
 	<div id="overview-video">
 		<div class="container-fluid">
 			<div class="row whoAreBotsRow">
-				<div class="col-md-6 botDemo">
+				<div class="col-md-6 hidden-sm hidden-xs botDemo">
 					<div class="iphoneWrapper">
 						<video width="240" autoplay="" loop="" muted >
 							<source src="video/MusementBot.mp4" type="video/mp4">
@@ -115,34 +117,34 @@
 					<h1>What are Chatbots?</h1>
 					<p>A Chatbot is a virtual assistant powered by rules and algorithms that lets your customers interact with your business through several messaging platforms. These Chatbots are intuitive to use and can be implemented into several fields of business such as e-commerce, entertainment, news, customer support, delivery services or corporate information exchange.</p>
 					<div class="row text-center">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-4 col-xs-4">
 							<div class="col-md-12"> <img src="img/messenger.png" alt="">
 								<p>Messenger</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-4 col-xs-4">
 							<div class="col-md-12"> <img src="img/Slack_Icon.png" alt="">
 								<p>Slack</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-4 col-xs-4">
 							<div class="col-md-12"> <img src="img/viber.png" alt="">
 								<p>Viber</p>
 							</div>
 						</div>
 					</div>
 					<div class="row text-center ">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-4 col-xs-4">
 							<div class="col-md-12"> <img src="img/kik.svg" alt="">
 								<p>Kik</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-4 col-xs-4">
 							<div class="col-md-12"> <img src="img/skype.svg" alt="">
 								<p>Skype</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-4 col-xs-4">
 							<div class="col-md-12"> <img src="img/sms.ico" alt="">
 								<p>SMS</p>
 							</div>
@@ -231,7 +233,7 @@
                     </div>
                 </div>
 -->
-			<div class="col-md-3 col-sm-6 col-md-offset-1-5 nopadding">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1-5 nopadding">
 				<div class="portfolio-item">
 					<div class="col-md-10 col-md-offset-1 botDemo">
 						<div class="iphoneWrapper video">
@@ -246,7 +248,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 nopadding">
+			<div class="col-lg-3 col-md-4 col-sm-6 nopadding">
 				<div class="portfolio-item">
 					<div class="col-md-10 col-md-offset-1 botDemo">
 						<div class="iphoneWrapper video">
@@ -261,7 +263,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 nopadding">
+			<div class="col-lg-3 col-md-4 hidden-sm nopadding">
 				<div class="portfolio-item">
 					<div class="col-md-10 col-md-offset-1 botDemo">
 						<div class="iphoneWrapper video">
@@ -368,10 +370,10 @@
     -->
 	<!-- Contact Section -->
 	<div id="contact">
-		<div class="container">
+		<div class="container emailForm">
 			<div class="space"></div>
 			<div class="row">
-				<div class="col-md-4 col-md-offset-1 text-center">
+				<div class="col-md-4 hidden-sm hidden-xs col-md-offset-1 text-center">
                        <img src="img/robot.png" alt="">
 
                          <address class="text-left">
@@ -449,7 +451,7 @@
 	<script>
 		$(function () {
 			$("#head-title").typed({
-				strings: ["Hi, we create chatbots^1000", "AI powered", "Unique conversation flow^1000", "24/7 available for hire^1000"]
+				strings: ["Hi, we create chatbots^1000", "AI powered^1000", "Unique conversation flow^1000", "24/7 available for hire^1000"]
 				, typeSpeed: 100
 				, loop: true
 				, startDelay: 100

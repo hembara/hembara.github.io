@@ -13,6 +13,35 @@ body, html{
 	.container {
 		width: 960px;
 	}
+	
+}
+.navbar-right{
+	margin-right: 90px;
+}
+.navbar{
+	height: 80px;
+	background: rgb(252, 252, 252);
+	color: #2a89ff;
+}
+
+.navbar-nav > li > a {
+    padding-top: 28px;
+	cursor: pointer;
+	color: #504f4f;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:link, .navbar-nav > li > a:active{
+	background: transparent;
+	color: #747474;
+}
+
+.navbar img{
+	width: 310px;
+	max-width: 80%;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	margin-left: 90px;
 }
 img{
     max-width: 100%;
@@ -20,6 +49,11 @@ img{
 h1, .headingOfChapter{
 	font-weight: 700;
 	font-size: 46px;
+	color: #535353;
+}
+
+.headingOfChapter{
+	font-weight: normal;
 }
 
 h2{
@@ -64,8 +98,9 @@ a:focus{
 	text-decoration: none;
 }
 #home{
-	height: auto;
+	height: 100vh;
 	min-height: 710px;	
+	
 	padding-top: 60px;
     color: #3c3c3c;
 /*    background: rgba(73,155,234,1);*/
@@ -77,9 +112,9 @@ a:focus{
 
 
     background: #00c6ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
-    background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #93e3fd , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(right, #93e3fd , #0072ff);
+    background: linear-gradient(to left, #93e3fd , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 /*
@@ -104,10 +139,10 @@ a:focus{
 }
 
 .content{    
-	padding-top: 16%;
+	padding-top: 25%;
 }
 .header-text.btn{
-	border: 1px solid #5c5c5c;
+	
 	border-radius: 10px;
 	padding: 10px 30px;
 	height: 100px;
@@ -137,7 +172,7 @@ a:focus{
     left: 9px;
     top: 98px;
     border: 12px solid;
-    border-color: #666 transparent transparent #666;
+    border-color: transparent transparent transparent transparent;
 }
 
 .header-text.btn:after {
@@ -395,18 +430,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     line-height: 30px;
     list-style: none;
 }
-.service:hover>h4,
-.service:hover>span.fa{
-	color: #4776A4;
-}
-.service:hover{
-	border-color: #4776A4;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	cursor: pointer;
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
+
+
 .service img{
     width: 200px;
 	margin-top: -20px;
@@ -469,7 +494,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .service h4{
     font-size: 26px;
-    color: #818181;
+    color: #1ba3fc;
 }
 .space{ padding-top: 40px; }
 
@@ -645,6 +670,10 @@ box-shadow:         2px 1px 7px 0px rgba(50, 50, 50, 0.53);
 	opacity: 1;
 }
 
+.navbar-toggle .icon-bar{
+	background: #34b9f4;
+	margin-top: 15px;
+}
 .col-md-offset-1-5{
     margin-left: 12.666667%;
 }
@@ -694,9 +723,9 @@ box-shadow:         2px 1px 7px 0px rgba(50, 50, 50, 0.53);
 
 #contact{
 	background: #00c6ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
-    background: linear-gradient(to left, #00c6ff , #0072ff); 
+    background: -webkit-linear-gradient(to left, #93e3fd , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(right, #93e3fd , #0072ff);
+    background: linear-gradient(to left, #93e3fd , #0072ff); 
 	padding: 100px 0;
 	padding-bottom: 0;
 	color: #ffffff;
@@ -763,6 +792,7 @@ margin-bottom: 24px;
 	line-height: 1.42857143;
 	color: #555;
 	background-color: #efefef;
+	
 	background-image: none;
     border-radius: 20px;
 	border: 0;
@@ -775,9 +805,9 @@ margin-bottom: 24px;
 }
 
 .btn.contact-but{background: #00c6ff;
-    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff);
-    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
-    background: linear-gradient(to left, #00c6ff , #0072ff);
+    background: -webkit-linear-gradient(to left, #93e3fd , #0072ff);
+    background: -webkit-linear-gradient(right, #93e3fd , #0072ff);
+    background: linear-gradient(to left, #93e3fd , #0072ff);
     width: 70%;
     margin: 0 auto;
     display: block;
@@ -810,9 +840,9 @@ form p{
 }
 #contact input{
      background: #00c6ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(right, #00c6ff , #0072ff);
-    background: linear-gradient(to left, #00c6ff , #0072ff);
+    background: -webkit-linear-gradient(to left, #93e3fd , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(right, #93e3fd , #0072ff);
+    background: linear-gradient(to left, #93e3fd , #0072ff);
 	width: 70%;
 	margin: 0 auto;
 	display: block;
@@ -821,8 +851,13 @@ form p{
 	padding: 13px;
 	border-radius: 25px;
 }
+
+#contact .emailForm{
+	box-shadow: 2px 2px 8px -2px rgba(88, 88, 88, 0.81)    ;
+}
 #contact .container{
     background: white;
+	
     width:80%;
     border-radius: 40px;
 }
