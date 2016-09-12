@@ -10,7 +10,11 @@
 		margin-left: 0;
 	}
 	
-	.navbar-right {
+
+}
+
+@media only screen and (max-width: 1062px){
+		.navbar-right {
     margin: 0 auto;
     width: 100%;
     background: #fcfcfc;
@@ -20,7 +24,6 @@
     margin-left: -35px;
 }
 }
-
 @media only screen and (max-width: 768px){
 	
 }
