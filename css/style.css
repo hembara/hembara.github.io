@@ -181,3 +181,71 @@ nav#footer{padding:40px 50px;color:#ffffff;}
 #footer span.fa{color:#4776A4;font-size:26px;margin-left:10px;}
 #footer a{color:#ffffff;}
 #footer a:hover{color:#4776A4;}
+#blog{
+	margin-top: 100px;
+	font: 100%/1.625 "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif
+}
+#blog h1{
+	color: #00bcfb;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+#blog p{
+	color: #2a2a2a;
+	font-size: 15px;
+}
+.blog-item a{
+	display: block;
+	height: 250px;
+	float: left;
+	cursor: pointer;
+	padding: 15px 15px;
+	border: 1px solid #dbdbdb;
+}
+.blog-item .col-md-3{
+	background-image: url(../img/messengerForBusiness.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+#chatbotsGotPayments{
+	margin-top: 100px;
+	font: 100%/1.625 "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif
+}
+#chatbotsGotPayments hr{
+	border-color: #adadad;
+	float: left;
+	width: 100%;
+}
+#chatbotsGotPayments h1{
+	font-weight: normal;
+	color: #00bcfb;
+	font-size: 39px;
+	
+}
+#chatbotsGotPayments p{
+	font-size: 17px;
+}
+#chatbotsGotPayments .social{
+	padding-left: 0px;
+    margin-left: -10px;
+}
+#chatbotsGotPayments img{
+	
+	margin-bottom: 20px;
+}
+
+#chatbotsGotPayments .social a{
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+#chatbotsGotPayments .social img{
+	margin-bottom: 0px;
+}
+.chatbotsGotPayments nav#footer{
+	background: #50c2e6;
+	margin-top: 30px;
+}
