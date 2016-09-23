@@ -264,3 +264,6 @@ nav#footer{padding:40px 50px;color:#ffffff;}
 .bot_commerce .padding_top{
 	padding-top: 60px;
 }
+.blog-item.blog-item-3 .col-md-3{
+	background-image: url('../img/whatAreChatbots1.jpeg');
+}
