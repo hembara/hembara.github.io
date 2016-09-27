@@ -254,7 +254,7 @@ nav#footer{padding:40px 50px;color:#ffffff;}
 }
 .chatbotsGotPayments nav#footer{
 	background: #50c2e6;
-	margin-top: 30px;
+	padding-top: 30px;
 }
 .chatbotsGotPayments h2{
 	text-align: center;
@@ -266,4 +266,63 @@ nav#footer{padding:40px 50px;color:#ffffff;}
 }
 .blog-item.blog-item-3 .col-md-3{
 	background-image: url('../img/whatAreChatbots1.jpeg');
+}
+.hbspt-form{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+input.hs-input, textarea.hs-input, select.hs-input{
+	display: inline-block;
+    width: 210px;
+    height: 24px !important;
+    padding: 4px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #666;
+    border: 1px solid #ccc;
+	border-radius: 0px !important;
+}
+input.hs-input, textarea.hs-input{
+	box-shadow: none !important;
+}
+textarea.hs-input{
+	height: 100px !important;
+}
+.hs-form .inputs-list:first-child {
+    margin-top: -10px;
+    padding-top: 0px;
+}
+.hs-form-booleancheckbox-display span{
+	    margin-top: -25px;
+    display: block;
+    margin-left: 20px;
+}
+
+.hbspt-form .hs-form .hs-button {
+    text-shadow: 0 ;
+    background-color: #00c6ff ;
+	text-shadow: none ;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	box-shadow: none;
+	margin-top: -20px;
+	font-size: 13px;
+    background-image: none ;
+    box-shadow: 0 ;
+border: 0 !important;
+    border-radius: 12px !important;
+    -webkit-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+.hs-form .hs-button:hover:not(.inactive), .hs-form .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive){
+	box-shadow: none !important;
+}
+.blog-form{
+	background: #edfbff;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
