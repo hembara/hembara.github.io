@@ -326,3 +326,6 @@ border: 0 !important;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.blog-item-4 .col-md-3{
+	background-image: url(../img/blog_6_1.jpg);
+}
