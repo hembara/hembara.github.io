@@ -9,7 +9,7 @@
 	.col-md-offset-1-5{
 		margin-left: 0;
 	}
-	
+
 
 }
 
@@ -21,11 +21,11 @@
 	}
 	.container-fluid > .navbar-collapse {
     margin-right: -35px;
-    margin-left: -35px;
+    margin-left: -16px;
 }
 }
 @media only screen and (max-width: 768px){
-	
+
 }
 @media only screen and (max-width: 608px){
 nav#menu span.fa.fa-bars {
@@ -62,7 +62,7 @@ padding: 15% 0;
 	#contact .container{
 		width:95%;
 	}
-	
+
 h3 {
     font-size: 12px;
 }
