@@ -23,10 +23,10 @@ function main() {
 		function hideVideo(e) {
 			$('video', this).get(0).pause();
 		}
-		$('body').scrollspy({
-			target: '.navmenu'
-			, offset: 80
-		, });
+		// $('body').scrollspy({
+		// 	target: '.navmenu'
+		// 	, offset: 80
+		// , });
 	}());
 }
 main();
