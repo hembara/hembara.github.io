@@ -23,6 +23,8 @@ function main() {
 		function hideVideo(e) {
 			$('video', this).get(0).pause();
 		}
+
+		$("video").prop('muted', true);
 		// $('body').scrollspy({
 		// 	target: '.navmenu'
 		// 	, offset: 80
