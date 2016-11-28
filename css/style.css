@@ -204,6 +204,13 @@ nav#footer{padding:40px 50px;color:#ffffff;}
 	border: 1px solid #dbdbdb;
 	margin-bottom: 20px;
 }
+
+.blog-item-5 .col-md-3{
+	background-image: url(../img/musement_contract.jpg) !important;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
 .blog-item .col-md-3{
 	background-image: url(../img/messengerForBusiness.jpg);
 	background-size: cover;
