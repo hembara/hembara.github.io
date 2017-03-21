@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>BotsCrew Blog</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body,
+    html {
+      width: 100%;
+      overflow-x: hidden
+    }
+
+    a,
+    p {
+      font-weight: 300;
+    }
+
+    h1,
+    h2 {
+      font-weight: 400;
+    }
+
+    h1,
+    h2,
+    p,
+    a {
+      font-family: "Roboto", sans-serif;
+    }
+
+    a,
+    a:hover,
+    a:visited,
+    a:active {
+      text-decoration: none!important
+    }
+
+    .header {
+      width: 100%;
+      /*height: 12vh*/
+    }
+
+    .menu-item {
+      font-weight: 400
+    }
+
+    .navbar .navbar-header {
+      border-bottom: 1px solid rgba(229, 229, 229, .2) !important;
+      background-color: #FFFFFF !important;
+    }
+    .navbar.navbar-default {
+      background-color: #FFFFFF;
+    }
+
+    .nav-up {
+      top: -201px
+    }
+
+    .bot-btn {
+      border: 1px solid #2F80ED;
+      transition-duration: .2s;
+      padding: 14px 23px
+    }
+
+    .bot-btn:hover {
+      transition-duration: .5s;
+      text-decoration: none
+    }
+
+    .bot-btn:active {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 4px 0 rgba(0, 0, 0, 0.05)
+    }
+
+    .bot-btn.white-blue {
+      color: #2F80ED!important;
+      background-color: rgba(0, 0, 0, .03);
+      padding: 14px 28px;
+    }
+
+    .bot-btn.white-blue:hover {
+      background-color: #2F80ED!important;
+      color: #FFF!important
+    }
+  </style>
+</head>
+<body id="subscribeAtTop">
+
+<header class="header">
+  <div id="headerInner">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top nav-down">
+        <div class="subscribe-block">
+          <div class="inner row text-center">
+            <form name="subscribeForm" id="subscribe-form" role="form" action="https://769dff9b.ngrok.io/mail_subscribe" onsubmit="submissionCheck('close')" method="POST" target="mock_frame" autocomplete="off">
+              <p class="hidden-xs">Subscribe to BotsCrew newsletter<span class="hidden-sm">. No spam, no nasty stuff</span></p>
+              <input name="email" type="email" placeholder="Your E-Mail" id="emailInput">
+              <input name="timezone" type="text" id="timezoneInput">
+              <button type="submit" class="menu-item bot-btn white subscribe">Subscribe</button>
+              <a class="close-btn" onclick="closeSubscribeBlock()"><img src="img/close.svg"></a>
+            </form>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type = "button" class = "navbar-toggle"
+                    data-toggle = "collapse" data-target = "#navbar">
+              <span class = "sr-only">Toggle navigation</span>
+              <span class = "icon-bar"></span>
+              <span class = "icon-bar"></span>
+              <span class = "icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.svg" alt="BotsCrew logo"><span class="menu-item">BotsCrew</span></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="cases.html" class="menu-item">Cases</a></li>
+              <li><a href="blog.html" class="menu-item">Blog</a></li>
+              <li><a href="team.html" class="menu-item">Team</a></li>
+              <li class="careers"><a href="careers.html" class="menu-item">Careers</a></li>
+              <li><a href="index.html#contact" class="menu-item bot-btn white text-blue noborder">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="blur"></div>
+</header>
+<script>
+  if(localStorage.getItem('subscriptionBotsCrew') == 1) {
+    document.getElementsByClassName('subscribe-block')[0].style.display = 'none';
+    if(document.getElementById("subscribeAtTop")) {
+      document.getElementById("subscribeAtTop").style.paddingTop = '94px';
+    }
+  }
+</script>
+
+<section id="wrapper" class="container">
+  <div class="top">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-3 col-md-6">
+        <h1>Our challenges, problem solving and great experience</h1>
+      </div>
+    </div>
+  </div>
+  <div id="middle">
+    <div class="col-xs-12 col-md-offset-1 col-md-10">
+      <div class="row">
+        <div class="case case-2 col-xs-12 col-md-6">
+          <a href="cases/musement.html">
+            <div class="preview-img"></div>
+            <div class="preview-text">
+              <h2>Musement</h2>
+              <p>Musement is a ticketing platform and travel company, which helps to enjoy the fullest experience of destinations. Recently it has raised $10 million in Series B funding. Family fund Micheli Associati, with participation from previous backers P101, and 360 Capital Partners led the round. Musement was founded in 2013 in Italy as the online platform for tours, activities, shows, museums…
+                <span class="read-more"> Read more</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="case case-1 col-xs-12 col-md-6" >
+          <a href="cases/tec-in-store.html">
+            <div class="preview-img"></div>
+            <div class="preview-text">
+              <h2>TecInStore</h2>
+              <p>As a big repair center of the phones, Tec InStore always had a lot of requests from their customers. They were describing their problems with the phone, asking typical questions to the customer support center. It took a lot of money and affords to satisfy every customer and answer on his question. And it was hard to scale.
+                <span class="read-more"> Read more</span></p>
+            </div>
+          </a>
+        </div>
+<!--
+        <div class="case case-3 col-xs-12 col-md-6" style="clear:left;">
+          <a href="cases/hungry.html">
+            <div class="preview-img"></div>
+            <div class="preview-text">
+              <h2>Hungry Chat</h2>
+              <p>You are not you when you are hungry. Just type what you would like to eat or the restaurant you want to order the food from, take a look on menu and do the order witin seconds, not leaving your favorite messenger. Have a good meal.
+                <span class="read-more"> Read more</span></p>
+            </div>
+          </a>
+        </div>
+-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="col-xs-12 text-left footer-inner">
+    <div class="col-sm-3 logo-container hidden-xs">
+      <img src="img/footer_logo.svg" id="footer-logo">
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2">
+      <p class="heading"><b>BotsCrew</b></p>
+      <a href="cases.html">Cases</a>
+      <a href="blog.html">Blog</a>
+      <a href="team.html">Team</a>
+      <a href="careers.html">Careers</a>
+      <a href="index.html#contact">Contact Us</a>
+    </div>
+    <div class="col-xs-5 col-sm-2">
+      <p class="heading"><b>Cases</b></p>
+      <a href="https://www.m.me/musement" target="_blank">Musement</a>
+      <a href="https://www.m.me/hungrychat" target="_blank">Hungry</a><a href="https://www.m.me/tecinstore" target="_blank">Tec InStore</a>
+
+
+ 
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2 links">
+      <p class="heading"><b>Links</b></p>
+      <a href="https://www.facebook.com/botsmarket" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/bots.crew/" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/company/15139837" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/Bots_Crew" target="_blank">Twitter</a>
+    </div>
+    <div class="col-xs-5 col-sm-3 location">
+      <p class="heading"><b>Location</b></p>
+      <p>80 Franklin Street, Suite 1
+        New York, NY 10013, USA</p>
+    </div>
+  </div>
+  <div class="row col-sm-offset-3 col-sm-6">
+    <p class="footer-copyright">Copyright © 2016 - 2017 BotsCrew. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" href="css/blog.css">
+<link rel="stylesheet" href="css/cases.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/hiding_header.js"></script>
+<script src="js/index.js"></script>
+<script src="js/common_scripts.js"></script>
+<script src="js/subscribe_mockup.js"></script>
+</body>
+</html>

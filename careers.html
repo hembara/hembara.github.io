@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>BotsCrew Chatbots Development</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <style>
+    body,
+    html {
+      width: 100%;
+      overflow-x: hidden
+    }
+
+    a,
+    p {
+      font-weight: 300;
+    }
+
+    h1,
+    h2 {
+      font-weight: 400;
+    }
+
+    h1,
+    h2,
+    p,
+    a {
+      font-family: "Roboto", sans-serif;
+    }
+
+    a,
+    a:hover,
+    a:visited,
+    a:active {
+      /*text-decoration: none!important*/
+      text-decoration: none;
+    }
+
+    .header {
+      width: 100%
+    }
+
+    .nav-up {
+      top: -201px
+    }
+
+    .navbar {
+      border: none;
+      background-color: transparent;
+      transition: top .3s ease-in-out
+    }
+
+    /*.navbar-nav {*/
+      /*margin: 0 auto;*/
+      /*padding: 24px*/
+    /*}*/
+
+    /*.navbar-nav>li:last-child {*/
+      /*padding-right: 100px*/
+    /*}*/
+
+    /*.navbar-default {*/
+      /*border-color: #E5E5E5*/
+    /*}*/
+
+    /*.navbar-brand {*/
+      /*padding: 0 0 0 100px;*/
+      /*display: flex;*/
+      /*align-items: center;*/
+      /*margin: 24px*/
+    /*}*/
+
+    /*.navbar-brand>img {*/
+      /*!*height: 50px;*!*/
+      /*padding: 7px 14px;*/
+      /*!*width: auto*!*/
+    /*}*/
+
+    .menu-item {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      color: #FFFFFF!important
+    }
+
+    .bot-btn.white {
+      border: 1px solid #FFFFFF;
+      color:#FFFFFF!important;
+      background-color: rgba(256, 256, 256, .11) !important;
+      padding: 14px 28px;
+    }
+    .bot-btn:hover {
+      transition-duration: .5s;
+      text-decoration: none
+    }
+
+    .bot-btn:active {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 4px 0 rgba(0, 0, 0, 0.05)
+    }
+
+    .top {
+      background: linear-gradient(90deg, #1464D0 0%, #4D99FF 100%);
+    }
+
+    .insta-block {
+      margin-top: 0 !important;
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div id="headerInner">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top nav-down">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type = "button" class = "navbar-toggle" onclick="menuDefaultStyles()"
+                    data-toggle = "collapse" data-target = "#navbar">
+              <span class = "sr-only">Toggle navigation</span>
+              <span class = "icon-bar white"></span>
+              <span class = "icon-bar white"></span>
+              <span class = "icon-bar white"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo_white.svg" alt="BotsCrew logo"><span class="menu-item">BotsCrew</span></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="cases.html" class="menu-item">Cases</a></li>
+              <li><a href="blog.html" class="menu-item">Blog</a></li>
+              <li><a href="team.html" class="menu-item">Team</a></li>
+              <li class="careers"><a href="careers.html" class="menu-item">Careers</a></li>
+              <li><a href="index.html#contact" class="page-scroll menu-item page-scroll bot-btn white border-white transparent">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="modal-mobile-header">
+  <a href="index.html" class="logo">
+    <img src="img/logo.png">
+  </a>
+  <a class="close-icon">
+    <img src="img/modal_close_mobile.svg" id="modalCloseBtn">
+  </a>
+</div>
+
+<section id="wrapper">
+  <div>
+    <div class="row">
+      <div class="top col-md-12">
+        <h1>Live. Dream. Achieve. <span style="display: inline-block">With us.</span></h1>
+        <a href="#openRoles" class="page-scroll menu-item bot-btn white border-white transparent"><span class="text">See our openings</span></a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="col-md-offset-2 col-md-8">
+        <h1>Build the future</h1>
+        <p>We are our future. Working on a common goal, we want to achieve big dreams and to develop the modern world of technology! Besides, we think that implementing chatbots - predictable and understandable program, that behaves like a real person - will simplify work with web services. We see the future in the development of modern technology by great people who will accomplish their dreams to real life!
+        </p>
+        <h1>What is BotsCrew team like?</h1>
+        <p>BotsCrew - is a team of ambitious professionals that are crazy about new technologies and innovations. We are a group of supporters and same-minds Each of us is an original person who shares company’s values and goals. We are proud of everyone in our team and what we do. BotsCrew team is the place where you feel comfortable and happy, the place where you find good friends, real fun, the huge amount of new information, new knowledge and experience! We are a  happy family of chatbots!
+        </p>
+      </div>
+      <div class="row">
+        <div class="insta-block col-md-12 nopadding">
+          <div class="hidden-xs hidden-sm col-md-3 block">
+            <img src="img/team_bottom_1.jpg" class="block-image">
+          </div>
+          <div class="col-xs-6 col-md-3 block">
+            <img src="img/team_bottom_2.jpg">
+          </div>
+          <div class="col-xs-6 col-md-3 block">
+            <img src="img/team_bottom_3.jpg">
+          </div>
+          <div class="hidden-xs hidden-sm col-md-3 block">
+            <img src="img/team_bottom_4.jpg">
+          </div>
+          <a href="http://instagram.com/bots.crew">
+            <div class="follow">
+              <img src="img/follow_ig.svg"> Follow us <span class="hidden-xs">on Instagram</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row col-xs-12 col-md-offset-2 col-md-8 perks">
+        <h1>Perks & Benefits</h1>
+        <p>We care about each employee and want each of us to become a professional with us. We are interested in making our working space comfortable and create more and more advantages of working in BotsCrew. Here are some of them:
+        </p>
+      </div>
+      <div class="benefits col-xs-12 hidden-xs">
+        <div class="col-sm-offset-1 col-sm-10">
+          <div class="row">
+            <div class="benefit col-sm-6">
+              <img src="img/salary-icon.svg">
+              <div class="text">
+                <p class="title"><b>Competetive salary</b></p>
+                <p class="description">We are interested in development and career growth of our employees. </p>
+              </div>
+            </div>
+            <div class="benefit right col-sm-6 col-md-6">
+              <img src="img/workplace-icon.svg">
+              <div class="text">
+                <p class="title"><b>Comfortable workplace</b></p>
+                <p class="description">The company provides employees with a comfortable work space at the city center, where you can work and have fun.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="benefit col-sm-6">
+              <img src="img/vacation-icon.svg">
+              <div class="text">
+                <p class="title"><b>Paid vacation</b></p>
+                <p class="description">In our company, you will have 20 days of paid vacation after working in the company for 6 months.</p>
+              </div>
+            </div>
+            <div class="benefit right col-sm-6 col-md-6">
+              <img src="img/challenge-icon.svg">
+              <div class="text">
+                <p class="title"><b>Tons of challenges</b></p>
+                <p class="description">One of the most interesting things in life are challenges. Be sure here you will have a lot of exciting projects and will grow every day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="benefit col-sm-6">
+              <img src="img/educatio-icon.svg">
+              <div class="text">
+                <p class="title"><b>Education $ Self-improvement</b></p>
+                <p class="description">The company gives each employee a chance to improve their skills and pays half a price of the cost of any courses, workshops and conferences.</p>
+              </div>
+            </div>
+            <div class="benefit right col-sm-6 col-md-6">
+              <img src="img/team-icon.svg">
+              <div class="text">
+                <p class="title"><b>Friendly and loyal team</b></p>
+                <p class="description">Our team is our treasure. We are a group of active, young, full of energy people, with the same views and love to our work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container benefits-carousel hidden-sm hidden-md hidden-lg">
+        <br>
+        <div id="benefitsCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#benefitsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#benefitsCarousel" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="row">
+                <div class="benefit first col-sm-6">
+                  <img src="img/salary-icon.svg">
+                  <div class="text">
+                    <p class="title"><b>Competetive salary</b></p>
+                    <p class="description">We are interested in development and career growth of our employees. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="benefit col-sm-6">
+                  <img src="img/vacation-icon.svg">
+                  <div class="text">
+                    <p class="title"><b>Paid vacation</b></p>
+                    <p class="description">In our company, you will have 20 days of paid vacation after working in the company for 6 months.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="benefit col-sm-6">
+                  <img src="img/educatio-icon.svg">
+                  <div class="text">
+                    <p class="title"><b>Education $ Self-improvement</b></p>
+                    <p class="description">The company gives each employee a chance to improve their skills and pays half a price of the cost of any courses, workshops and conferences.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="benefit first col-sm-6 col-md-6">
+                  <img src="img/workplace-icon.svg">
+                  <div class="text">
+                    <p class="title"><b>Comfortable workplace</b></p>
+                    <p class="description">The company provides employees with a comfortable work space at the city center, where you can work and have fun.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="benefit col-sm-6 col-md-6">
+                  <img src="img/challenge-icon.svg">
+                  <div class="text">
+                    <p class="title"><b>Tons of challenges</b></p>
+                    <p class="description">One of the most interesting things in life are challenges. Be sure here you will have a lot of exciting projects and will grow every day.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="benefit col-sm-6 col-md-6">
+                  <img src="img/team-icon.svg">
+                  <div class="text">
+                    <p class="title"><b>Friendly and loyal team</b></p>
+                    <p class="description">Our team is our treasure. We are a group of active, young, full of energy people, with the same views and love to our work.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="roles row col-md-offset-2 col-md-8">
+        <h1 id="openRoles">Open roles</h1>
+        <p class="no-bottom-margin">Take a look on our recent openings and do your first step to join our family
+        </p>
+        <div class="row">
+          <div id="roleSalesManager" class="role col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-5 col-lg-offset-2 col-lg-4">
+            <div class="preview-img">
+              <img src="img/suitcase.svg">
+            </div>
+            <p class="heading">Sales Manager</p>
+            <p class="sub-heading">Full-Time, Lviv</p>
+          </div>
+          <div id="roleJavaDev" class="role col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-5 col-lg-4">
+            <div class="preview-img">
+              <img src="img/console.svg">
+            </div>
+            <p class="heading">Junior Java Developer</p>
+            <p class="sub-heading">Full-Time, Lviv</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="bottom col-sm-12 no-bottom-margin">
+        <!--<div class="inner row text-center">-->
+          <!--<form name="subscribeForm" id="subscribe-form" role="form" action="https://769dff9b.ngrok.io/mail_subscribe" onsubmit="submissionCheck()" method="POST" target="mock_frame" autocomplete="off">-->
+            <!--<p class="hidden-xs">Subscribe to BotsCrew newsletter<span class="hidden-sm">. No spam, no nasty stuff</span></p>-->
+            <!--<input name="email" type="email" placeholder="Your E-Mail" id="emailInput">-->
+            <!--<input name="timezone" type="text" id="timezoneInput">-->
+            <!--<button type="submit" class="menu-item bot-btn white subscribe">Subscribe</button>-->
+          <!--</form>-->
+        <!--</div>-->
+        <div class="subscribe-block">
+          <div class="inner row text-center">
+            <form name="subscribeForm" id="subscribe-form" role="form" action="https://769dff9b.ngrok.io/mail_subscribe" onsubmit="submissionCheck()" method="POST" target="mock_frame" autocomplete="off">
+              <p class="hidden-xs">Subscribe to BotsCrew newsletter<span class="hidden-sm">. No spam, no nasty stuff</span></p>
+              <input name="email" type="email" placeholder="Your E-Mail" id="emailInput">
+              <input name="timezone" type="text" id="timezoneInput">
+              <button type="submit" class="menu-item bot-btn white subscribe">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="col-xs-12 text-left footer-inner">
+    <div class="col-sm-3 logo-container hidden-xs">
+      <img src="img/footer_logo.svg" id="footer-logo">
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2">
+      <p class="heading"><b>BotsCrew</b></p>
+      <a href="cases.html">Cases</a>
+      <a href="blog.html">Blog</a>
+      <a href="team.html">Team</a>
+      <a href="careers.html">Careers</a>
+      <a href="index.html#contact">Contact Us</a>
+    </div>
+    <div class="col-xs-5 col-sm-2">
+      <p class="heading"><b>Cases</b></p>
+      <a href="https://www.m.me/musement" target="_blank">Musement</a>
+      <a href="https://www.m.me/hungrychat" target="_blank">Hungry</a><a href="https://www.m.me/tecinstore" target="_blank">Tec InStore</a>
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2 links">
+      <p class="heading"><b>Links</b></p>
+      <a href="https://www.facebook.com/botsmarket" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/bots.crew/" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/company/15139837" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/Bots_Crew" target="_blank">Twitter</a>
+    </div>
+    <div class="col-xs-5 col-sm-3 location">
+      <p class="heading"><b>Location</b></p>
+      <p>80 Franklin Street, Suite 1
+        New York, NY 10013, USA</p>
+    </div>
+  </div>
+  <div class="row col-sm-offset-3 col-sm-6">
+    <p class="footer-copyright">Copyright © 2016 - 2017 BotsCrew. All rights reserved.</p>
+  </div>
+</footer>
+
+<div class="modal fade" id="modalSalesManager" tabindex="-1" role="dialog" aria-labelledby="modalInfoLabel">
+  <a href="#" class="modal-close-btn hidden-xs" data-dismiss="modal"><img src="img/close_modal.svg"></a>
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="inner">
+            <h1>IT Sales/Marketing manager</h1>
+            <p>Lviv, Ukraine</p>
+          </div>
+        </div>
+        <div class="modal-body">
+          <!--<div class="middle col-xs-12 col-md-offset-2 col-md-8">-->
+            <div class="vacancy">
+              <h1>Overview</h1>
+              <p class="heading"><b>What is our definition of a superstar salesperson? Someone who:</b></p>
+              <ul class="skills-list">
+                <li>Can establish rapport with anyone</li>
+                <li>Can earn a client's trust in a short period of time</li>
+                <li>Exudes self confidence</li>
+                <li>Doesn't give up</li>
+                <li>Listens more than talk</li>
+                <li>Learns every day and is committed to personal development</li>
+              </ul>
+              <div class="demands">
+                <h1>Required skills</h1>
+                <ul class="skills-list">
+                  <li>Fluent English</li>
+                  <li>Strong communication skills via email or over the phone. This is a must</li>
+                  <li>Highly motivated and dedicated with an "ownership" mindset</li>
+                  <li>Dedicated to an excellent customer service experience</li>
+                  <li>Skilled at building relationships with people</li>
+                  <li>Team player</li>
+                  <li>Desire for self-development</li>
+                  <li>An experience of living/working in English speaking countries will be a plus</li>
+                  <li>Can be a student</li>
+                </ul>
+              </div>
+
+              <div class="demands">
+                <h1>Responsibilities</h1>
+                <ul class="skills-list">
+                  <li>Sales planning</li>
+                  <li>Call prospective customers by phone</li>
+                  <li>Adjust sales scripts to better target the needs and interests of specific individuals</li>
+                  <li>Establishing contact with potential customers (chat & Skype)</li>
+                  <li>Sales of chat bot development (using Upwork, LinkedIn, etc.)</li>
+                  <li>Holding negotiations with long-term clients</li>
+                  <li>Marketing activities (market research, content management, website management, SMM, etc.)</li>
+                  <li>Active participation in marketing events</li>
+                </ul>
+              </div>
+
+              <div class="demands">
+                <h1>We offer:</h1>
+                <ul class="skills-list">
+                  <li>Friendly, young and outstanding team</li>
+                  <li>USA(San Francisco, Houston, New York ), Singapore and Europe business trips</li>
+                  <li>Comfortable working space</li>
+                  <li>Competitive compensation with bonuses</li>
+                  <li>Full-time work (flexible working hours)</li>
+                  <li>Team-buildings in mountains or abroad</li>
+                  <li>Opportunity to develop your skills</li>
+                  <li>Possibility to participate in different courses, events, training sessions, seminars</li>
+                  <li>Tons of challenges and hard work</li>
+                  <li>4 working weeks paid vacation</li>
+                </ul>
+              </div>
+
+              <h1 class="apply-heading">Apply now</h1>
+
+              <div class="apply-body container-fluid text-center">
+                <a href="https://www.messenger.com/t/571540093027453" target="_blank" class="menu-item bot-btn white text-blue border-white contact-modal"><img src="img/messenger_icon_blue.svg" class="fb-messenger-img"> Contact us in messenger</a>
+                <div class="middle">
+                  <div class="form-container col-lg-offset-2 col-lg-8">
+                    <form role="form" name="applyForm" class="apply-form" autocomplete="off" action="https://formspree.io/info@botscrew.com" method="POST" target="_blank">
+                      <input type="text" name="Name" placeholder="Your name" required>
+                      <input type="email" name="E-mail" placeholder="Your e-mail address" required>
+                      <input type="text" name="Resume" placeholder="Link to resume or LinkedIn" required>
+
+                      <textarea placeholder="Your message (optional)" rows="1" cols="33" name="Message" style="resize:none"></textarea>
+                      <input type="submit" value="Send Message" class="menu-item bot-btn white text-blue modal-btn">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div><!--#modalSalesMan-->
+
+<div class="modal fade" id="modalJavaDev" tabindex="-1" role="dialog" aria-labelledby="modalInfoLabel">
+  <a class="modal-close-btn hidden-xs" data-dismiss="modal"><img src="img/close_modal.svg"></a>
+  <!--<div class="modal-mobile-header">-->
+    <!--<a href="index.html" class="logo">-->
+      <!--<img src="img/logo.png">-->
+    <!--</a>-->
+    <!--<a class="close-icon">-->
+      <!--<img src="img/modal_close_mobile.svg" data-dismiss="modal">-->
+    <!--</a>-->
+  <!--</div>-->
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="inner">
+            <h1>Junior Java Developer</h1>
+            <p>Lviv, Ukraine</p>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="vacancy">
+            <div class="demands">
+              <h1>Required skills</h1>
+              <ul class="skills-list">
+                <li>Strong knowledge of OOP</li>
+                <li>Java Core</li>
+                <li>Relational Database</li>
+                <li>REST</li>
+                <li>Hibernate/JPA</li>
+                <li>Strong Upper Intermediate or Higher English level</li>
+                <li>Desire for self-development</li>
+                <li>Huge motivation</li>
+                <li>Education/courses</li>
+                <li>Can be a student</li>
+              </ul>
+            </div>
+
+            <div class="demands">
+              <h1>These skills will be a plus:</h1>
+              <ul class="skills-list">
+                <li>Java 8</li>
+                <li>Spring framework (loC, Boot, MVC, Data JPA)</li>
+                <li>MySql</li>
+                <li>Tomcat</li>
+                <li>AI</li>
+                <li>Own projects</li>
+              </ul>
+            </div>
+
+            <div class="demands">
+              <h1>We offer:</h1>
+              <ul class="skills-list">
+                <li>Full/part-time and flexible working schedule</li>
+                <li>Friendly, young and outstanding team</li>
+                <li>Comfortable working space in Lviv city center</li>
+                <li>Opportunity to develop your skills</li>
+                <li>Growing up in new area of chatbots development</li>
+                <li>Possibility to participate in different courses, events, training sessions, seminars</li>
+                <li>Competitive compensation with bonuses</li>
+                <li>Team-buildings in mountains or abroad</li>
+                <li>Tons of challenges and hard work</li>
+                <li>4 working weeks paid vacation</li>
+              </ul>
+            </div>
+
+            <h1 class="apply-heading">Apply now</h1>
+
+            <div class="apply-body container-fluid text-center">
+              <a href="https://www.messenger.com/t/571540093027453" target="_blank" class="menu-item bot-btn white text-blue contact-modal"><img src="img/messenger_icon_blue.svg" class="fb-messenger-img"> Contact us in messenger</a>
+              <div class="middle">
+                <div class="form-container col-lg-offset-2 col-lg-8">
+                  <form role="form" name="myForm"></form>
+                  <form role="form" name="applyForm" class="apply-form" autocomplete="off" action="https://formspree.io/info@botscrew.com" method="POST" target="_blank">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="E-mail" placeholder="Your e-mail address" required>
+                    <input type="text" name="Resume" placeholder="Link to resume or LinkedIn" required>
+
+                    <textarea placeholder="Your message (optional)" rows="1" cols="33" name="Message" style="resize:none"></textarea>
+                    <input type="submit" value="Send Message" class="menu-item bot-btn white text-blue">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div><!--#modalJavaDev-->
+
+
+<link rel="stylesheet" href="css/blog_article.css">
+<link rel="stylesheet" href="css/careers.css">
+<link rel="stylesheet" href="css/team.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/hiding_header.js"></script>
+<script src="js/team_header.js"></script>
+<script defer src="js/common_scripts.js"></script>
+<script defer src="js/autosize.min.js"></script>
+<!--<script defer src="js/initAutosize.js"></script>-->
+<script defer>
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    addJS_Node(null, "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js", null, function () {
+      var benefitsCarousel = $('#benefitsCarousel');
+      benefitsCarousel.on("swipeleft", function () {
+        $(this).carousel("next");
+        return false;
+      });
+      benefitsCarousel.on("swiperight", function () {
+        $(this).carousel("prev");
+        return false;
+      });
+    });
+  }
+</script>
+<script src="js/careers_scripts.js"></script>
+<script src="js/subscribe_mockup.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+h2 {
+    font-size: 28px;
+    letter-spacing: 0.0166px;
+    color: #4F4F4F;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;line-height: 140%;letter-spacing: 0.0166px;color: #828282;
+    margin-bottom: 60px;
+}
+
+.standard-menu-item {
+    color: #333 !important;
+}
+.icon-bar.white {
+    background-color: #FFFFFF !important;
+}
+
+.learn-more-link {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.0166px;
+    color: #2F80ED;
+}
+.learn-more-link:hover, .learn-more-link:visited {
+    color: #205EB4;
+}
+.learn-more-link:hover {
+    text-decoration: underline !important;
+}
+
+/*.bot-btn.white {*/
+    /*border: 1px solid #FFFFFF;*/
+    /*color:#FFFFFF!important;*/
+    /*background-color: rgba(256, 256, 256, .18) !important;*/
+    /*padding: 14px 28px;*/
+/*}*/
+    /*.bot-btn.white:hover {*/
+        /*background-color:#F2F2F2!important;*/
+    /*}*/
+    /*.bot-btn.white.border-white {*/
+        /*border: 1px solid #FFFFFF;*/
+    /*}*/
+        /*.bot-btn.white.border-white:hover {*/
+            /*background-color:#F2F2F2!important;*/
+        /*}*/
+
+.content {
+    text-align: left;
+    padding-top: 60px;
+}
+
+.content .article {
+    /*padding-top: 6px;*/
+}
+
+.members {
+    margin-top: 33px !important;
+}
+.member-card {
+    /*width: 32.3%;*/
+    /*display: inline-block;*/
+    text-align: center;
+}
+.member-card .name {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.insta-block {
+    margin-top: 60px;
+    position: relative;
+}
+.insta-block .follow {
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #2F80ED;
+    padding: 8px 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .2s;
+    /*z-index: 2;*/
+}
+.insta-block .follow:hover {
+    cursor: pointer;
+    border: 1px solid #2F80ED;
+}
+.insta-block .follow>img {
+    padding-bottom: 2px;
+}
+.insta-block .block {
+    padding-left: 0;
+    padding-right: 0;
+}
+.insta-block .block>img {
+    width: 100%;
+    height: auto;
+}
+.member-photo{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media (max-width: 991px) {
+    .insta-block .follow {
+        transform: translate(-50%, 0);
+        margin-top: 22%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default {
+        border-bottom:1px solid #E5E5E5
+    }
+}

@@ -1,0 +1,450 @@
+.nopadding-vertical {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+.margin-top-small {
+    margin-top: 30px;
+}
+.margin-bottom-small {
+    margin-bottom: 30px;
+}
+
+.bot-btn.blue.learn {
+    margin: 30px 0;
+}
+
+.modal-close-btn {
+    position: fixed;
+    top: 60px;
+    right: 3%;
+    cursor: pointer;
+    /*display: none;*/
+}
+
+.modal-mobile-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 5px 15px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1051;
+    display: none;
+}
+    .modal-mobile-header .logo > img {
+        width: 40px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    .modal-mobile-header .close-icon {
+        float: right;
+        width: 30px;
+        margin-right: 5%;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+.modal-backdrop
+{
+    opacity:0.9 !important;
+}
+.modal-header {
+    position: relative;
+    height: 250px;
+    background: url("../img/careersPopupBack.png") center;
+    border-radius: 6px 6px 0 0;
+}
+    .modal-header .inner {
+        text-align: center;
+        padding: 6% 18px 30px;
+    }
+        .modal-header .inner h1 {
+            font-size: 48px;
+            line-height: 110%;
+            color: rgba(0, 0, 0, 0.8);
+            margin-bottom: 10px;
+        }
+        .modal-header .inner p {
+            font-size: 18px;
+            color: #2F80ED;
+            margin-top: 0;
+            font-weight: 600;
+        }
+.modal-body h1 {
+    font-size: 48px;
+    line-height: 110%;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+.modal-body .vacancy {
+    width: 76%;
+    margin: 0 12%;
+}
+    .modal-body .vacancy p {
+       margin: 0 0 20px;
+    }
+.modal-header .inner p {
+    font-size: 18px;
+    color: #2F80ED;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.apply-heading {
+    margin-top: 60px;
+}
+
+.apply-body .header {
+    padding-top: 30px;
+    background: none;
+}
+
+.apply-body .apply-form {
+    margin-top: 30px;
+}
+.apply-form input[type=text],
+.apply-form input[type=email],
+.apply-form textarea
+{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    border-radius: 0;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
+.apply-form textarea {
+    padding-top: 22px;
+    padding-bottom: 18px;
+    line-height: 140%;
+}
+.apply-form input:focus, .apply-form select:focus, .apply-form textarea:focus{
+    outline: none;
+}
+
+.apply-form input::-webkit-input-placeholder, .apply-form textarea::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.apply-form input[type=submit] {
+    margin: 30px auto;
+}
+
+.benefits {
+    background: #F9F9F9 !important;
+    padding: 60px 0 30px 0;
+    margin: 0 -15px 60px -15px;
+    width: calc(100% + 30px);
+}
+    .benefit {
+        margin-bottom: 30px;
+    }
+    .benefits .benefit.right {
+        padding-left: 7%;
+    }
+    .benefit img,
+    .benefit .text{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .benefit .text {
+        max-width: 69%;
+    }
+    .benefit .title,
+    .benefit .description {
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+    .benefit .description {
+        padding-bottom: 0;
+    }
+
+.perks > h1 {
+    margin-top: 60px;
+}
+
+.benefits-carousel {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 30px;
+    width: calc(100% + 30px);
+    background: #F9F9F9;
+}
+    .benefits-carousel .carousel-indicators {
+        bottom: -30px;
+    }
+        .benefits-carousel .carousel-indicators li {
+            background: #CCCCCC;
+        }
+        .benefits-carousel .carousel-indicators .active {
+            background: #2F80ED;
+        }
+
+.role {
+    background: #FFFFFF;
+    opacity: 1.00;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    transition: .2s ease-in-out;
+}
+.role:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+    .role .preview-img {
+        /*margin: 12px;*/
+        display: block;
+        /*width: 250px;*/
+        height: 250px;
+        margin: 20px auto;
+        background: #2F80ED;
+        position: relative;
+    }
+        .role .preview-img > img {
+            display: block;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    .role .heading {
+        font-weight: 700;
+        margin: 20px 10px 6px 0;
+        border: none;
+        padding: 0;
+    }
+    .role .sub-heading {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+.vacancy {
+    display: block;
+    padding: 20px 30px 30px;
+    border-bottom: 1px solid #C4C4C4;
+}
+/*.vacancy:last-child {*/
+    /*border: none;*/
+/*}*/
+.vacancy h2 {
+    font-size: 28px;
+    letter-spacing: 0.0166px;
+    color: #2F80ED;
+}
+.vacancy p {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.0166px;
+    color: #828282;
+}
+.vacancy p>b {
+    color: #000000;
+}
+
+.vacancy .description {
+    margin-top: 20px;
+}
+.vacancy .demands, .vacancy .offers {
+    /*padding-top: 33px;*/
+}
+.vacancy .offers {
+    margin-bottom: 44px;
+}
+
+.vacancy .demands .heading, .vacancy .offers .heading {
+    padding-left: 0;
+}
+
+.vacancy .skills-list {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+    .vacancy .skills-list > li {
+        line-height: 150%;
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 30px;
+    }
+
+@media (max-width: 1065px) {
+    .benefits .text {
+        max-width: 66%;
+    }
+    .benefit img {
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 991px) {
+    .perks, .roles {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .benefits .text {
+        max-width: 55%;
+    }
+
+    .modal-header .inner {
+        padding-top: 7%;
+    }
+}
+
+@media (min-width: 768px) {
+    .role:nth-child(odd) {
+        margin-left: calc(16.66666667% - 15px);
+    }
+    .role:nth-child(even) {
+        margin-left: 30px;
+    }
+
+    .modal-dialog {
+        width: 88%;
+        margin: 60px auto;
+    }
+}
+@media (min-width: 992px) {
+    .role:nth-child(odd) {
+        margin-left: calc(8.33333333% - 10px);
+    }
+    .role:nth-child(even) {
+        margin-left: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .role:nth-child(odd) {
+        margin-left: calc(15.66666667% - 15px);
+    }
+    .role:nth-child(even) {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .benefit {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .benefit.first {
+        margin-top: 60px;
+    }
+        .benefit .text {
+            max-width: 75%;
+            padding-left: 6px;
+        }
+
+    .benefits .benefit.right {
+        padding-left: 15px;
+    }
+
+    .perks {
+        background: #FFFFFF;
+        width: calc(100% + 30px);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .modal-header {
+        margin-top: 60px;
+    }
+    .modal-dialog {
+        margin: 0;
+        width: 100%;
+    }
+    .modal-content {
+        border-radius: 0;
+    }
+
+    .modal-body .vacancy {
+        width: 100%;
+        margin: 0;
+    }
+
+    .vacancy .skills-list {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 575px) {
+    .vacancy .demands p, .vacancy .offers p {
+        padding-left: 66px;
+    }
+}
+@media (max-width: 575px) {
+    .benefit {
+        width: 100%;
+    }
+        .benefit .text {
+            max-width: 74%;
+        }
+
+    .role:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .modal-header .inner {
+        padding-top: 3%;
+    }
+
+    .apply-heading {
+        text-align: center;
+    }
+}
+
+/*@media (max-width: 515px) {*/
+    /*.subscribe-block .inner input {*/
+        /*width: 44%;*/
+    /*}*/
+
+    /*.subscribe-block .inner .close-btn {*/
+        /*margin-left: 10%;*/
+    /*}*/
+/*}*/
+
+@media (max-width: 444px) {
+    .benefit .text {
+        max-width: 62%;
+    }
+
+    .demands h1 {
+        font-size: 36px;
+    }
+
+    .modal-header .inner {
+        padding: 3% 8px 8px;
+    }
+
+    .vacancy .skills-list > li {
+        padding-left: 6px;
+    }
+    .vacancy {
+        padding: 20px 5px;
+    }
+}
+
+@media (max-width: 383px) {
+    .middle .form-container {
+        padding: 0;
+    }
+    .bot-btn.white.text-blue.contact-modal {
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}
