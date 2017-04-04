@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b3e5fc-2af0-4f36-9bb3-e581570b76d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/bots-commerce.html" afterPath="$PROJECT_DIR$/blog/bots-commerce.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/chatbots-got-payments.html" afterPath="$PROJECT_DIR$/blog/chatbots-got-payments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/musement-raised-millions.html" afterPath="$PROJECT_DIR$/blog/musement-raised-millions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/retail-needs-updating.html" afterPath="$PROJECT_DIR$/blog/retail-needs-updating.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/what-are-chatbots.html" afterPath="$PROJECT_DIR$/blog/what-are-chatbots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/young-audience-to-news-media.html" afterPath="$PROJECT_DIR$/blog/young-audience-to-news-media.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cases/musement.html" afterPath="$PROJECT_DIR$/cases/musement.html" />
     </list>
     <ignored path="hembara.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +41,8 @@
       <file leaf-file-name="bots-commerce.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/bots-commerce.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4216">
-              <caret line="248" column="79" selection-start-line="248" selection-start-column="79" selection-end-line="248" selection-end-column="79" />
+            <state relative-caret-position="297">
+              <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -48,8 +51,8 @@
       <file leaf-file-name="chatbots-got-payments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/chatbots-got-payments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3281">
-              <caret line="193" column="79" selection-start-line="193" selection-start-column="79" selection-end-line="193" selection-end-column="79" />
+            <state relative-caret-position="263">
+              <caret line="216" column="81" selection-start-line="216" selection-start-column="81" selection-end-line="216" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -58,8 +61,8 @@
       <file leaf-file-name="musement-raised-millions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/musement-raised-millions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="237" column="121" selection-start-line="237" selection-start-column="71" selection-end-line="237" selection-end-column="121" />
+            <state relative-caret-position="210">
+              <caret line="202" column="83" selection-start-line="202" selection-start-column="83" selection-end-line="202" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -68,8 +71,8 @@
       <file leaf-file-name="retail-needs-updating.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/retail-needs-updating.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3842">
-              <caret line="226" column="79" selection-start-line="226" selection-start-column="79" selection-end-line="226" selection-end-column="79" />
+            <state relative-caret-position="280">
+              <caret line="249" column="81" selection-start-line="249" selection-start-column="81" selection-end-line="249" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -78,18 +81,8 @@
       <file leaf-file-name="what-are-chatbots.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/what-are-chatbots.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="233" column="79" selection-start-line="233" selection-start-column="79" selection-end-line="233" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cases.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cases.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
+            <state relative-caret-position="297">
+              <caret line="256" column="81" selection-start-line="256" selection-start-column="81" selection-end-line="256" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -108,8 +101,18 @@
       <file leaf-file-name="tec-in-store.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cases/tec-in-store.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4131">
+            <state relative-caret-position="161">
               <caret line="243" column="88" selection-start-line="243" selection-start-column="88" selection-end-line="243" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crafting-a-great-branding-delivery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/crafting-a-great-branding-delivery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,8 +121,8 @@
       <file leaf-file-name="young-audience-to-news-media.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/young-audience-to-news-media.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="375" column="70" selection-start-line="375" selection-start-column="70" selection-end-line="375" selection-end-column="70" />
+            <state relative-caret-position="244">
+              <caret line="374" column="75" selection-start-line="374" selection-start-column="75" selection-end-line="374" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -149,15 +152,15 @@
         <option value="$PROJECT_DIR$/retail-needs-updating.html" />
         <option value="$PROJECT_DIR$/musement-raised-millions.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/cases.html" />
+        <option value="$PROJECT_DIR$/cases/tec-in-store.html" />
+        <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/cases/musement.html" />
         <option value="$PROJECT_DIR$/blog/bots-commerce.html" />
         <option value="$PROJECT_DIR$/blog/chatbots-got-payments.html" />
         <option value="$PROJECT_DIR$/blog/musement-raised-millions.html" />
         <option value="$PROJECT_DIR$/blog/retail-needs-updating.html" />
         <option value="$PROJECT_DIR$/blog/what-are-chatbots.html" />
-        <option value="$PROJECT_DIR$/cases.html" />
-        <option value="$PROJECT_DIR$/cases/tec-in-store.html" />
-        <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/cases/musement.html" />
         <option value="$PROJECT_DIR$/blog/young-audience-to-news-media.html" />
       </list>
     </option>
@@ -366,12 +369,12 @@
       <workItem from="1477484551568" duration="1691000" />
       <workItem from="1480348123310" duration="4179000" />
       <workItem from="1490635234653" duration="206000" />
-      <workItem from="1491320680552" duration="617000" />
+      <workItem from="1491320680552" duration="1231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19500000" />
+    <option name="totallyTimeSpent" value="20114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -411,14 +414,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -606,42 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/bots-commerce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4216">
-          <caret line="248" column="79" selection-start-line="248" selection-start-column="79" selection-end-line="248" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/chatbots-got-payments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3281">
-          <caret line="193" column="79" selection-start-line="193" selection-start-column="79" selection-end-line="193" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/retail-needs-updating.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3842">
-          <caret line="226" column="79" selection-start-line="226" selection-start-column="79" selection-end-line="226" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/tec-in-store.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4131">
-          <caret line="243" column="88" selection-start-line="243" selection-start-column="88" selection-end-line="243" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -662,26 +625,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cases/tec-in-store.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="243" column="88" selection-start-line="243" selection-start-column="88" selection-end-line="243" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/bots-commerce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/chatbots-got-payments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="216" column="81" selection-start-line="216" selection-start-column="81" selection-end-line="216" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/crafting-a-great-branding-delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/musement-raised-millions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="237" column="121" selection-start-line="237" selection-start-column="71" selection-end-line="237" selection-end-column="121" />
+        <state relative-caret-position="210">
+          <caret line="202" column="83" selection-start-line="202" selection-start-column="83" selection-end-line="202" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/retail-needs-updating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="249" column="81" selection-start-line="249" selection-start-column="81" selection-end-line="249" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/what-are-chatbots.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="233" column="79" selection-start-line="233" selection-start-column="79" selection-end-line="233" selection-end-column="79" />
+        <state relative-caret-position="297">
+          <caret line="256" column="81" selection-start-line="256" selection-start-column="81" selection-end-line="256" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/young-audience-to-news-media.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="375" column="70" selection-start-line="375" selection-start-column="70" selection-end-line="375" selection-end-column="70" />
+        <state relative-caret-position="244">
+          <caret line="374" column="75" selection-start-line="374" selection-start-column="75" selection-end-line="374" selection-end-column="75" />
           <folding />
         </state>
       </provider>
