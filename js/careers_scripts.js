@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     $('#roleSalesManager').on("click", function () {
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            window.open("careers/sales.html");
+            window.open("careers/project-manager.html");
         } else {
             $('#modalSalesManager').modal('show');
             autosize($('textarea'));
