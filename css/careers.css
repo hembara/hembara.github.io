@@ -223,6 +223,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             max-height: 100%;
+            max-width: calc(100% - 1px);
         }
     .role .heading {
         font-weight: 700;
