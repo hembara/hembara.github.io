@@ -4,7 +4,7 @@ p, a{font-size:18px;font-weight:300;}
 a,
 a:hover,
 a:visited,
-a:active{text-decoration:none;}
+a:active{text-decoration:none!important}
 .alert{position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:33%;margin:0 auto;font-size:18px;z-index:600;display:none;}
 .alert p{font-weight:400;}
 .no-padding-bottom{padding-bottom:0}
@@ -17,8 +17,8 @@ a:active{text-decoration:none;}
 .navbar{padding-top:0;border:none;transition:top .4s ease-in-out;}
 .navbar.transparent{background:transparent;}
 .navbar.navbar-default{border-color:#E5E5E5;border-bottom:1px solid #E5E5E5 !important;}
-.navbar.navbar-default .navbar-brand{padding:0;display:flex;align-items:center;margin:24px 24px 24px 90px;font-weight:400;color:#2F80ED !important;}
-.navbar.navbar-default .navbar-brand > .menu-item{margin-left:14px;}
+.navbar.navbar-default .navbar-brand{padding:0;display:flex;align-items:center;margin:24px 24px 24px 90px;font-weight:400;color:#2F80ED!important;text-decoration: none}
+.navbar.navbar-default .navbar-brand > .menu-item{margin-left:14px}
 .nav.navbar-nav{margin:0 auto;padding:24px;}
 .nav.navbar-nav.navbar-right > li.careers{margin-right:30px;}
 .nav.navbar-nav.navbar-right>li>a.menu-item{font-size:18px;line-height:100%;font-weight:400;color:#4F4F4F;text-decoration:none;padding:14px 18px;}
@@ -26,8 +26,8 @@ a:active{text-decoration:none;}
 .nav.navbar-nav.navbar-right>li>a.menu-item:link,
 .nav.navbar-nav.navbar-right>li>a.menu-item:hover,
 .nav.navbar-nav.navbar-right>li>a.menu-item:visited,
-.nav.navbar-nav.navbar-right>li>a.menu-item:active{text-decoration:none}
-.bot-btn:hover{transition-duration:.5s;text-decoration:none;}
+.nav.navbar-nav.navbar-right>li>a.menu-item:active{text-decoration:none!important}
+.bot-btn:hover{transition-duration:.5s;text-decoration:none}
 .bot-btn:active{box-shadow:0 10px 20px rgba(0, 0, 0, 0.1), inset 0 4px 0 rgba(0, 0, 0, 0.05)}
 .bot-btn:link,
 .bot-btn:hover,

@@ -20,54 +20,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="qa.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/careers/qa.html">
+      <file leaf-file-name="industries-benefits-of-chatbots.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/industries-benefits-of-chatbots.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-918">
-              <caret line="121" column="36" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/careers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="328" column="28" lean-forward="false" selection-start-line="328" selection-start-column="28" selection-end-line="328" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="careers_scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/careers_scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="95" lean-forward="true" selection-start-line="2" selection-start-column="95" selection-end-line="2" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/careers.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="321" column="71" lean-forward="false" selection-start-line="321" selection-start-column="71" selection-end-line="321" selection-end-column="71" />
+            <state relative-caret-position="220">
+              <caret line="214" column="42" lean-forward="true" selection-start-line="214" selection-start-column="42" selection-end-line="214" selection-end-column="42" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4573#4579#0" expanded="true" />
+                <element signature="e#11281#11287#0" expanded="true" />
+                <element signature="e#11992#11997#0" expanded="true" />
+                <element signature="e#12053#12058#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#15996#16002#0" expanded="true" />
+                <element signature="e#16182#16188#0" expanded="true" />
+                <element signature="e#17431#17437#1" expanded="true" />
+                <element signature="e#17609#17615#0" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#22283#22289#0" expanded="true" />
+                <element signature="e#23867#23873#0" expanded="true" />
+                <element signature="e#27043#27049#0" expanded="true" />
+                <element signature="e#27961#27967#0" expanded="true" />
+                <element signature="e#28680#28686#0" expanded="true" />
+                <element signature="e#31237#31243#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="187" column="8" lean-forward="true" selection-start-line="187" selection-start-column="8" selection-end-line="206" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="138" column="58" lean-forward="false" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_article.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/blog_article.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="38" column="107" lean-forward="false" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="young-audience-to-news-media.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/young-audience-to-news-media.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="373" column="19" lean-forward="false" selection-start-line="373" selection-start-column="19" selection-end-line="373" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,6 +103,14 @@
       <find>project ma</find>
       <find>quality ass</find>
       <find>salesManager</find>
+      <find>graf-image</find>
+      <find>footer</find>
+      <find>ifra</find>
+      <find>industries bene</find>
+      <find>recent pos</find>
+      <find>industries-benefits-</find>
+      <find>industries-benefits-5</find>
+      <find>industries-benefits-2</find>
     </findStrings>
     <replaceStrings>
       <replace>modalQA</replace>
@@ -107,23 +130,26 @@
         <option value="$PROJECT_DIR$/what_are_chatbots.html" />
         <option value="$PROJECT_DIR$/retail-needs-updating.html" />
         <option value="$PROJECT_DIR$/musement-raised-millions.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/cases.html" />
         <option value="$PROJECT_DIR$/cases/tec-in-store.html" />
-        <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/cases/musement.html" />
         <option value="$PROJECT_DIR$/blog/bots-commerce.html" />
         <option value="$PROJECT_DIR$/blog/chatbots-got-payments.html" />
         <option value="$PROJECT_DIR$/blog/musement-raised-millions.html" />
         <option value="$PROJECT_DIR$/blog/retail-needs-updating.html" />
         <option value="$PROJECT_DIR$/blog/what-are-chatbots.html" />
-        <option value="$PROJECT_DIR$/blog/young-audience-to-news-media.html" />
         <option value="$PROJECT_DIR$/careers/sales.html" />
         <option value="$PROJECT_DIR$/js/careers_scripts.js" />
         <option value="$PROJECT_DIR$/careers/qa.html" />
         <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/css/careers.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/css/blog.css" />
+        <option value="$PROJECT_DIR$/css/blog_article.css" />
+        <option value="$PROJECT_DIR$/blog/young-audience-to-news-media.html" />
+        <option value="$PROJECT_DIR$/blog/industries-benefits-of-chatbots.html" />
       </list>
     </option>
   </component>
@@ -136,7 +162,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectView">
@@ -224,14 +250,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pascal Program #49" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -343,18 +369,23 @@
       <workItem from="1490635234653" duration="206000" />
       <workItem from="1491320680552" duration="1231000" />
       <workItem from="1492593180415" duration="2458000" />
-      <workItem from="1493808137420" duration="2678000" />
+      <workItem from="1493808137420" duration="7033000" />
+      <workItem from="1493883393686" duration="7279000" />
+      <workItem from="1493897665195" duration="54000" />
+      <workItem from="1493970410654" duration="34000" />
+      <workItem from="1493976371365" duration="11000" />
+      <workItem from="1494244863130" duration="3598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25250000" />
+    <option name="totallyTimeSpent" value="40581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1639136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -391,18 +422,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bots_commerce.html" />
-    <entry file="file://$PROJECT_DIR$/retail-needs-updating.html" />
-    <entry file="file://$PROJECT_DIR$/what_are_chatbots.html" />
-    <entry file="file://$PROJECT_DIR$/chatbotsGotPayments.html" />
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -421,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -447,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -469,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,13 +540,6 @@
     <entry file="file://$PROJECT_DIR$/chatbotsGotPayments.html" />
     <entry file="file://$PROJECT_DIR$/what_are_chatbots.html" />
     <entry file="file://$PROJECT_DIR$/musement-raised-millions.html" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="245" column="73" lean-forward="false" selection-start-line="245" selection-start-column="73" selection-end-line="245" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
@@ -539,17 +547,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases/musement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3196">
           <caret line="188" column="18" lean-forward="false" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,15 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/young-audience-to-news-media.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6341">
-          <caret line="373" column="24" lean-forward="true" selection-start-line="373" selection-start-column="24" selection-end-line="373" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,6 +596,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="243" column="88" lean-forward="false" selection-start-line="243" selection-start-column="88" selection-end-line="243" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3434">
           <caret line="202" column="83" lean-forward="false" selection-start-line="202" selection-start-column="83" selection-end-line="202" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="697" column="69" lean-forward="true" selection-start-line="697" selection-start-column="51" selection-end-line="697" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,17 +618,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
           <caret line="121" column="36" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team.html">
+    <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="321" column="71" lean-forward="false" selection-start-line="321" selection-start-column="71" selection-end-line="321" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="254">
+          <caret line="328" column="35" lean-forward="false" selection-start-line="328" selection-start-column="35" selection-end-line="328" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -644,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="95" lean-forward="true" selection-start-line="2" selection-start-column="95" selection-end-line="2" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,14 +639,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="321" column="71" lean-forward="false" selection-start-line="321" selection-start-column="71" selection-end-line="321" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="138" column="58" lean-forward="false" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/careers.html">
+    <entry file="file://$PROJECT_DIR$/css/blog_article.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="328" column="28" lean-forward="false" selection-start-line="328" selection-start-column="28" selection-end-line="328" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="38" column="107" lean-forward="false" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="187" column="8" lean-forward="true" selection-start-line="187" selection-start-column="8" selection-end-line="206" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/industries-benefits-5.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/industries-benefits-of-chatbots.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="214" column="42" lean-forward="true" selection-start-line="214" selection-start-column="42" selection-end-line="214" selection-end-column="42" />
+          <folding>
+            <element signature="e#4573#4579#0" expanded="true" />
+            <element signature="e#11281#11287#0" expanded="true" />
+            <element signature="e#11992#11997#0" expanded="true" />
+            <element signature="e#12053#12058#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#15996#16002#0" expanded="true" />
+            <element signature="e#16182#16188#0" expanded="true" />
+            <element signature="e#17431#17437#1" expanded="true" />
+            <element signature="e#17609#17615#0" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#22283#22289#0" expanded="true" />
+            <element signature="e#23867#23873#0" expanded="true" />
+            <element signature="e#27043#27049#0" expanded="true" />
+            <element signature="e#27961#27967#0" expanded="true" />
+            <element signature="e#28680#28686#0" expanded="true" />
+            <element signature="e#31237#31243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/industries-benefits-2.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/young-audience-to-news-media.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="373" column="19" lean-forward="false" selection-start-line="373" selection-start-column="19" selection-end-line="373" selection-end-column="19" />
           <folding />
         </state>
       </provider>
