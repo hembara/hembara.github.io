@@ -137,11 +137,11 @@ h1, h2, p, a {
 
 .article.article-7 .preview-img {
     background: url("../img/industries-benefits-cover.jpeg");
-    background-size: 100%;
+    background-size: cover;
 }
 .article.article-6 .preview-img {
     background: url("../img/young-audience-cover-min.jpeg");
-    background-size: 100%;
+    background-size: cover;
 }
 .article.article-5 .preview-img {
     background: url("../img/musement_contract.jpg");
