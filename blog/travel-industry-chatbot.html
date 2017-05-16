@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>BotsCrew Chatbots Development</title>
+  <link rel="icon" type="image/png" href="../img/logo.png">
+  <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+  <style>
+    body, html {
+      width: 100%;
+      overflow-x: hidden
+    }
+
+    a, p {
+      font-weight: 400 !important;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600 !important;
+    }
+
+    h2 {
+      font-size: 24px !important;
+    }
+
+    h1,
+    h2,
+    p,
+    a {
+      font-family: "Roboto", sans-serif;
+    }
+
+    h2 a {
+      letter-spacing: 0.0166px;
+      color: #4F4F4F;
+      font-size: 24px;
+      text-decoration: underline !important;
+      font-weight: 600 !important;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    h3.small-margin-top {
+      margin-top: 20px;
+    }
+
+    p a {
+      color: #828282;
+      font-size: 18px;
+      text-decoration: underline !important;
+      font-weight: 400 !important;
+    }
+
+    a,
+    a:visited,
+    a:active {
+      text-decoration: none !important;
+      transition: .1s ease-in-out;
+    }
+
+    a:hover {
+      text-decoration: underline !important;
+      color: #2F80ED;
+    }
+
+    .header {
+      width: 100%
+    }
+
+    .nav-up {
+      top: -201px
+    }
+
+    .navbar {
+      border: none;
+      background-color: transparent;
+      transition: top .3s ease-in-out
+    }
+
+    .menu-item {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      color: #FFFFFF !important
+    }
+
+    .bot-btn.white {
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF !important;
+      background-color: rgba(256, 256, 256, .11) !important;
+      padding: 14px 28px;
+    }
+
+    .bot-btn.white:hover {
+      background-color: transparent !important;
+    }
+
+    .top {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/travel-industry-chatbot-cover.jpeg");
+    }
+
+    .recommendations {
+      list-style-type: decimal;
+    }
+
+    .recommendations > li {
+      padding: 0;
+    }
+
+    .recommendations.hyphen {
+      list-style-type: "-";
+    }
+
+    .whoAreBots p {
+      margin-bottom: 0;
+    }
+
+    b a {
+      font-weight: 700 !important;
+    }
+
+    @media (min-width: 768px) {
+      .left-border {
+        border-left: 4px solid;
+        margin-left: -30px;
+        padding-left: 26px !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div id="headerInner">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top nav-down">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" onclick="menuDefaultStyles()"
+                    data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar white"></span>
+              <span class="icon-bar white"></span>
+              <span class="icon-bar white"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo_white.svg"
+                                                              alt="BotsCrew logo"><span
+                    class="menu-item">BotsCrew</span></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../cases.html" class="menu-item">Cases</a></li>
+              <li><a href="../blog.html" class="menu-item">Blog</a></li>
+              <li><a href="../team.html" class="menu-item">Team</a></li>
+              <li class="careers"><a href="../careers.html" class="menu-item">Careers</a></li>
+              <li><a href="../index.html#contact" class="menu-item page-scroll bot-btn white border-white transparent">Contact
+                Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section id="wrapper">
+  <div>
+    <div class="row">
+      <div class="top col-md-12">
+        <h1>Working in a Travel Industry? You have to create a chatbot. <br>And this is why.</h1>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="col-md-offset-2 col-md-8">
+        <p class="left-border"><i>Tourism, traveling all round the world — one of the most exciting things which people
+          enjoy.</i></p>
+
+        <p name="ba5b" id="ba5b" class="graf graf--p graf-after--blockquote"><em class="markup--em markup--p-em">On the
+          one hand</em> some people like <em class="markup--em markup--p-em">to travel in comfort</em>, so they are
+          resting in different <a
+                  href="http://www.telegraph.co.uk/travel/hotels/galleries/the-worlds-most-fashionable-hotels/"
+                  data-href="http://www.telegraph.co.uk/travel/hotels/galleries/the-worlds-most-fashionable-hotels/"
+                  class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong
+                  class="markup--strong markup--p-strong">fashionable hotels</strong></a>. <em
+                  class="markup--em markup--p-em">On the other hand</em>, there are people who <strong
+                  class="markup--strong markup--p-strong">enjoy a </strong><a
+                  href="https://www.rei.com/learn/expert-advice/backpacking-beginners.html"
+                  data-href="https://www.rei.com/learn/expert-advice/backpacking-beginners.html"
+                  class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong
+                  class="markup--strong markup--p-strong">backpacking</strong></a> or prefer <a
+                  href="http://hitchwiki.org/en/Top_tips" data-href="http://hitchwiki.org/en/Top_tips"
+                  class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong
+                  class="markup--strong markup--p-strong">to travel by hitchhiking</strong></a> and they obtain the
+          <strong class="markup--strong markup--p-strong">same positive emotions</strong>.<br><em
+                  class="markup--em markup--p-em">All that unites these people is the </em><strong
+                  class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">Travel
+            Industry</em></strong><em class="markup--em markup--p-em">.</em></p>
+
+        <p name="5427" id="5427" class="graf graf--p graf-after--p">Travel agencies, hotels, hostels, amusement parks,
+          entertainments <em class="markup--em markup--p-em">are working for the comfort of tourists</em>.</p>
+
+        <p class="left-border">Their goal is: <em class="markup--em markup--blockquote-em">“</em><strong
+                class="markup--strong markup--blockquote-strong"><em
+                class="markup--em markup--blockquote-em">Client</em></strong><em
+                class="markup--em markup--blockquote-em"> must be satisfied and come back again”</em>.</p>
+
+        <div class="row">
+          <div class="col-md-7 col-xs-12 botDemo">
+            <img src="../img/travel-industry-chatbot-1.jpeg" alt="botscrew.com" class="img-full">
+          </div>
+          <div class="col-md-5 whoAreBots">
+            <p name="8939" id="8939" class="graf graf--p graf-after--figure"><em class="markup--em markup--p-em">People
+              are wondering themselves before each trip:</em></p>
+
+            <p name="963e" id="963e" class="graf graf--p graf-after--p"><em
+                    class="markup--em markup--p-em">-</em><strong class="markup--strong markup--p-strong"><em
+                    class="markup--em markup--p-em">Which</em></strong><em class="markup--em markup--p-em"> airline to
+              choose?<br>-</em><strong class="markup--strong markup--p-strong"><em
+                    class="markup--em markup--p-em">Where</em></strong><em class="markup--em markup--p-em"> to spend the
+              night?<br>-</em><strong class="markup--strong markup--p-strong"><em
+                    class="markup--em markup--p-em">What</em></strong><em class="markup--em markup--p-em"> will I do
+              there?<br>-</em><strong class="markup--strong markup--p-strong"><em
+                    class="markup--em markup--p-em">What</em></strong><em class="markup--em markup--p-em"> interesting
+              entertainment is there?<br>-</em><strong class="markup--strong markup--p-strong"><em
+                    class="markup--em markup--p-em">What</em></strong><em class="markup--em markup--p-em"> should I take
+              with me?</em></p>
+            <p><strong class="markup--strong markup--blockquote-strong">Answering all these questions takes too much
+              time.</strong>
+            </p>
+          </div>
+        </div>
+
+        <p class="left-border">How to make the process of answering these questions faster?</p>
+
+        <p name="c469" id="c469" class="graf graf--p graf-after--blockquote"><strong
+                class="markup--strong markup--p-strong">We can easily find the answer here</strong>,<em
+                class="markup--em markup--p-em"> in the world where </em><a
+                href="https://en.wikipedia.org/wiki/Technological_change"
+                data-href="https://en.wikipedia.org/wiki/Technological_change" class="markup--anchor markup--p-anchor"
+                rel="nofollow noopener" target="_blank"><em class="markup--em markup--p-em">technological progress</em></a><em
+                class="markup--em markup--p-em"> begins steadily growing.</em></p>
+
+        <p name="7c84" id="7c84" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">The
+          answer is clear— </strong><a href="https://en.wikipedia.org/wiki/Chatbot"
+                                       data-href="https://en.wikipedia.org/wiki/Chatbot"
+                                       class="markup--anchor markup--p-anchor" rel="nofollow noopener"
+                                       target="_blank"><strong class="markup--strong markup--p-strong">chatbots</strong></a><strong
+                class="markup--strong markup--p-strong">.</strong></p>
+
+        <p name="8eeb" id="8eeb" class="graf graf--p graf-after--p"><strong
+                class="markup--strong markup--p-strong">A</strong> <strong class="markup--strong markup--p-strong">chatbot</strong>
+          is a service, powered by rules and sometimes artificial intelligence, that you interact with via a messenger
+          or a chat interface.</p>
+
+        <h2 style="color:rgba(0,0,0,.4)"><a
+                href="https://skift.com/2015/06/08/5-charts-that-show-why-the-travel-industry-is-the-worlds-fastest-growing-sector/"
+                data-href="https://skift.com/2015/06/08/5-charts-that-show-why-the-travel-industry-is-the-worlds-fastest-growing-sector/"
+                class="markup--anchor markup--pullquote-anchor" rel="nofollow noopener" target="_blank">Travel
+          industry</a> — one of the fastest growing sectors globally.</h2>
+
+        <p class="left-border"><strong class="markup--strong markup--blockquote-strong">How can chatbot concern this
+          industry?</strong></p>
+
+        <img src="../img/travel-industry-chatbot-2.jpeg" style="width:100%" alt="botscrew.com" class="img-full">
+
+        <p name="0c45" id="0c45" class="graf graf--p graf-after--figure"><em class="markup--em markup--p-em">For
+          example</em> what if some <strong class="markup--strong markup--p-strong">hotel creates a chatbot</strong> in
+          one of the most popular apps <a href="https://www.messenger.com/" data-href="https://www.messenger.com/"
+                                          class="markup--anchor markup--p-anchor" rel="nofollow noopener"
+                                          target="_blank"><strong class="markup--strong markup--p-strong">Facebook
+            Messenger</strong></a><strong class="markup--strong markup--p-strong">.</strong></p>
+
+        <p class="left-border">What can be the functionality of chatbot?</p>
+
+        <p name="33cb" id="33cb" class="graf graf--p graf-after--blockquote"><em class="markup--em markup--p-em">1.The
+          bot can be client’s assistant.</em><br>A person can use the application to know all the price list, available
+          hotel rooms and etc. and not to attend the reception.<br>&nbsp;Furthermore&nbsp;, the costumer can book a room
+          and even pay for it via Messenger. That will speed up the decision-making process.</p>
+
+        <p name="221f" id="221f" class="graf graf--p graf-after--p"><em class="markup--em markup--p-em">2.The bot can be
+          a reminder.<br></em> It can remind you about going for breakfast, lunch, and dinner in the hotel. It can
+          remind you about a variety of events at the hotel such as musical evenings, conferences, comedy shows, etc.
+        </p>
+
+        <p name="3188" id="3188" class="graf graf--p graf-after--p"><em class="markup--em markup--p-em">3.The bot can
+          improve a communication link with with hotel staff.</em><br>You can use a bot to order anything in the
+          room.<br>Clients can solve all their problems with a few clicks and now they don’t need to use room phone.</p>
+
+        <p name="5b19" id="5b19" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">4.The
+          bot can be an entertainment assistant</em> if a person is getting bored by staying in a hotel or she has no
+          plans for the evening. The bot can advise where to go and what to do nearby.</p>
+
+        <div class="section-divider">
+          <hr class="section-divider">
+        </div>
+
+        <p name="a6bf" id="a6bf" class="graf graf--p graf--leading"><em class="markup--em markup--p-em">Another
+          example</em> — <a href="https://en.wikipedia.org/wiki/Travel_agency"
+                            data-href="https://en.wikipedia.org/wiki/Travel_agency"
+                            class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong
+                class="markup--strong markup--p-strong">travel agencies</strong></a><strong
+                class="markup--strong markup--p-strong">.</strong></p>
+
+        <img src="../img/travel-industry-chatbot-3.jpeg" style="width:100%" alt="botscrew.com" class="img-full"/>
+
+        <p name="c370" id="c370" class="graf graf--p graf-after--figure"><em class="markup--em markup--p-em">Chatbots
+          also can help to travel agencies in different ways again as an assistant for the client.</em></p>
+
+        <p name="d582" id="d582" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">1.</em>With
+          bot <strong class="markup--strong markup--p-strong">client can learn about</strong> a great deal of hot tours,
+          where to go, can get information about entertainment included in the tour, and much more.<br><em
+                  class="markup--em markup--p-em">2.</em><strong class="markup--strong markup--p-strong">A chatbot can
+            show different ways of entertaining leisure</strong> nearby if the client goes on a tour without an
+          entertainment program.<br><strong class="markup--strong markup--p-strong">3.Again bot can be a
+            reminder.<br></strong>A chatbot will write what is on the schedule when the client goes on tour.</p>
+
+        <h2 style="color:rgba(0,0,0,.4)">The functionality of chatbot can be different, more important is to find the
+          problem you want to cope&nbsp;with.</h2>
+
+        <div class="section-divider">
+          <hr class="section-divider">
+        </div>
+
+        <h2 name="4cb9" id="4cb9" class="graf graf--h4 graf--leading">What will you get as a result of using
+          a&nbsp;bot?</h2>
+
+        <p name="6d2b" id="6d2b" class="graf graf--p graf-after--h4">1.<a
+                href="https://www.answerdash.com/blog/chatbots-are-revolutionizing-customer-service"
+                data-href="https://www.answerdash.com/blog/chatbots-are-revolutionizing-customer-service"
+                class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong
+                class="markup--strong markup--p-strong">It will improve</strong></a> a <a
+                href="http://whatsnext.nuance.com/customer-experience/2017-chatbots-customer-service-and-artificial-intelligence/"
+                data-href="http://whatsnext.nuance.com/customer-experience/2017-chatbots-customer-service-and-artificial-intelligence/"
+                class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">customer service</a>
+          main component of <strong class="markup--strong markup--p-strong">a B2C business</strong>.<br>2.All
+          above — bot will make the name of your <a href="https://stanfy.com/blog/chatbot-can-increase-company-revenue/"
+                                                    data-href="https://stanfy.com/blog/chatbot-can-increase-company-revenue/"
+                                                    class="markup--anchor markup--p-anchor" rel="nofollow noopener"
+                                                    target="_blank"><strong class="markup--strong markup--p-strong">business</strong></a><strong
+                  class="markup--strong markup--p-strong"> worldwide known</strong>.</p>
+
+        <p name="600f" id="600f" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong"><em
+                class="markup--em markup--p-em">Start-up </em></strong><a href="https://www.musement.com"
+                                                                          data-href="https://www.musement.com"
+                                                                          class="markup--anchor markup--p-anchor"
+                                                                          rel="nofollow noopener"
+                                                                          target="_blank"><strong
+                class="markup--strong markup--p-strong"><em
+                class="markup--em markup--p-em">Musement</em></strong></a><strong
+                class="markup--strong markup--p-strong"><em class="markup--em markup--p-em"> is a real
+          example.</em></strong></p>
+
+        <img src="../img/travel-industry-chatbot-4.jpeg" style="width:100%" alt="botscrew.com" class="img-full"/>
+
+        <p name="d67c" id="d67c" class="graf graf--p graf-after--figure"><a
+                href="https://en.wikipedia.org/wiki/Musement" data-href="https://en.wikipedia.org/wiki/Musement"
+                class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank"><strong
+                class="markup--strong markup--p-strong">Musement</strong></a> — is an <strong
+                class="markup--strong markup--p-strong">online platform and travel company</strong> which was founded in
+          2013 in Italy for activities, tours, museums, shows and art events.</p>
+
+        <p name="b353" id="b353" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">In
+          2016</strong> Musement launched their <a href="https://www.facebook.com/messages/t/272965166151017"
+                                                   data-href="https://www.facebook.com/messages/t/272965166151017"
+                                                   class="markup--anchor markup--p-anchor" rel="nofollow noopener"
+                                                   target="_blank"><strong class="markup--strong markup--p-strong">chatbot
+          in Messenger</strong></a>.</p>
+
+        <p name="91dd" id="91dd" class="graf graf--p graf-after--p"><em class="markup--em markup--p-em">Musement chatbot
+          became an assistant for tourists.&nbsp;<br>It helps travelers to</em> choose a hotel, find attractions and
+          other useful things.<br><em class="markup--em markup--p-em">It certainly improved customer service</em> and
+          now <strong class="markup--strong markup--p-strong">Musement</strong> became <em
+                  class="markup--em markup--p-em">one of the most</em> <strong class="markup--strong markup--p-strong">popular
+            travel businesses</strong>.</p>
+
+        <h2 style="color:rgba(0,0,0,.4)">The result of the <strong class="markup--strong markup--pullquote-strong">FB
+          chatbot creating</strong> was <a href="http://botscrew.com/cases/musement.html"
+                                           data-href="http://botscrew.com/cases/musement.html"
+                                           class="markup--anchor markup--pullquote-anchor" rel="nofollow noopener"
+                                           target="_blank">a new channel</a> for Musement`s customers.</h2>
+
+        <h2 style="color:rgba(0,0,0,.4)">Musement has raised <a
+                href="https://techcrunch.com/2016/11/15/for-your-musement/"
+                data-href="https://techcrunch.com/2016/11/15/for-your-musement/"
+                class="markup--anchor markup--pullquote-anchor" rel="nofollow noopener" target="_blank">$10m of
+          investments</a>.</h2>
+
+        <p name="8283" id="8283" class="graf graf--p graf-after--pullquote"><strong
+                class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">Are you interested in the
+          chatbots and their influence on travel business?<br></em></strong><em class="markup--em markup--p-em">You can
+          find more in our </em><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">Research
+          &amp; Discovery</em></strong><em class="markup--em markup--p-em"> right </em><strong
+                class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">from Facebook
+          Messenger.</em></strong></p>
+
+        <a target="_blank" style="display:block;text-align:center;" href="http://m.me/botsmarket?ref=travel"
+           data-href="http://m.me/botsmarket?ref=travel" class="graf-imageAnchor" data-action="image-link"
+           data-action-observe-only="true" rel="nofollow"><img style="max-width: 100%" class="graf-image"
+                                                               data-image-id="1*gM05SLg1coDXMK9Vb4MlhA.png"
+                                                               data-width="450" data-height="84"
+                                                               src="https://cdn-images-1.medium.com/max/800/1*gM05SLg1coDXMK9Vb4MlhA.png"></a>
+
+
+        <div class="social-share">
+          <div class="text">Share with friends and community:</div>
+          <div class="fb">
+            <a target="_blank"
+               href="https://www.facebook.com/sharer/sharer.php?u=http://botscrew.com/blog/travel-industry-chatbot.html&title=Working in a Travel Industry? You have to create a chatbot. And this is why."><img
+                    src="../img/fb.svg"/></a>
+          </div>
+          <div class="in">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://botscrew.com/blog/travel-industry-chatbot.html&title=Working in a Travel Industry? You have to create a chatbot. And this is why.
+          &summary=Working in a Travel Industry? You have to create a chatbot. And this is why.&source=BotsCrew" target="_blank"><img
+                    src="../img/in.svg"/></a>
+          </div>
+          <div class="tw">
+            <a href="https://twitter.com/intent/tweet?url=http://botscrew.com/blog/travel-industry-chatbot.html"
+               target="_blank"><img src="../img/tw.svg"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="bottom col-sm-12 nopadding">
+        <div class="subscribe-block">
+          <div class="inner row text-center">
+            <form name="subscribeForm" id="subscribe-form" role="form" action="https://oleh.botscrew.com/mail_subscribe"
+                  onsubmit="submissionCheck()" method="POST" target="mock_frame" autocomplete="off">
+              <p class="hidden-xs">Subscribe to BotsCrew newsletter<span
+                      class="hidden-sm">. No spam, no nasty stuff</span></p>
+              <input name="email" type="email" placeholder="Your E-Mail" id="emailInput">
+              <input name="timezone" type="text" id="timezoneInput">
+              <button type="submit" class="menu-item bot-btn white subscribe">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-fixed hidden hidden-xs hidden-sm">
+      <div class="background"></div>
+      <div class="inner">
+        <div class="text">Share <span class="hidden-xs">with friends and community:</span></div>
+        <div class="fb">
+          <a target="_blank"
+             href="https://www.facebook.com/sharer/sharer.php?u=http://botscrew.com/blog/travel-industry-chatbot.html&title=Working in a Travel Industry? You have to create a chatbot. And this is why."><img
+                  src="../img/fb.svg"/></a>
+        </div>
+        <div class="in">
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://botscrew.com/blog/travel-industry-chatbot.html&title=Working in a Travel Industry? You have to create a chatbot. And this is why.
+          &summary=Working in a Travel Industry? You have to create a chatbot. And this is why.&source=BotsCrew" target="_blank"><img
+                  src="../img/in.svg"/></a>
+        </div>
+        <div class="tw">
+          <a href="https://twitter.com/intent/tweet?url=http://botscrew.com/blog/travel-industry-chatbot.html"
+             target="_blank"><img src="../img/tw.svg"/></a>
+        </div>
+        <div class="preview-img"></div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-offset-1 col-md-10">
+      <div class="row recent">
+        <p>Recent posts</p>
+      </div>
+      <div class="row">
+        <div class="article article-7 col-xs-12 col-md-6">
+          <a href="industries-benefits-of-chatbots.html">
+            <div class="preview-img"></div>
+            <div class="preview-text">
+              <h2>5 industries that benefit from chatbots already</h2>
+              <p>
+                Chatbot  — is a computer program that mimics conversation with people using artificial intelligence.
+                Their functionality went way beyond than it was at first, that’s why they make everyday life easier. Now chatbots can be found in any branch starting with simple chat conversation up to the chatbot that can manage your money...
+                <span class="read-more"> Read more</span>
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="article article-6 col-xs-12 col-md-6">
+          <a href="young-audience-to-news-media.html">
+            <div class="preview-img"></div>
+            <div class="preview-text">
+              <h2>Secret: how to attract young audience to news media</h2>
+              <p>With human development, an opening of the new technologies, particularly the Internet, the word “NEWS”
+                began to gain very extensive concept: starting with news feed in a social network up to news programs on
+                TV...
+                <span class="read-more"> Read more</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="col-xs-12 text-left footer-inner">
+    <div class="col-sm-3 logo-container hidden-xs">
+      <img src="../img/footer_logo.svg" id="footer-logo">
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2">
+      <p class="heading"><b>BotsCrew</b></p>
+      <a href="../cases.html">Cases</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../team.html">Team</a>
+      <a href="../careers.html">Careers</a>
+      <a href="../index.html#contact">Contact Us</a>
+    </div>
+    <div class="col-xs-5 col-sm-2">
+      <p class="heading"><b>Cases</b></p>
+      <a href="https://www.m.me/musement" target="_blank">Musement</a>
+      <a href="https://www.m.me/hungrychat" target="_blank">Hungry</a><a href="https://www.m.me/tecinstore"
+                                                                         target="_blank">Tec InStore</a>
+
+
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2 links">
+      <p class="heading"><b>Links</b></p>
+      <a href="https://www.facebook.com/botsmarket" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/bots.crew/" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/company/15139837" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/Bots_Crew" target="_blank">Twitter</a>
+    </div>
+    <div class="col-xs-5 col-sm-3 location">
+      <p class="heading"><b>Location</b></p>
+      <p>80 Franklin Street, Suite 1
+        New York, NY 10013, USA</p>
+    </div>
+  </div>
+  <div class="row col-sm-offset-3 col-sm-6">
+    <p class="footer-copyright">Copyright © 2016 - 2017 BotsCrew. All rights reserved.</p>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="../css/blog_article.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+<script id="subFolderScript" src="../js/team_header.js"></script>
+<script src="../js/hiding_header.js"></script>
+<script src="../js/blog_footer.js"></script>
+<script defer src="../js/common_scripts.js"></script>
+<script defer src="../js/subscribe_mockup.js"></script>
+<!--Twitter SDK-->
+<script>window.twttr = (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function (f) {
+        t._e.push(f);
+    };
+
+    return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<!--FB SDK-->
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '421602991515605',
+            xfbml: true,
+            version: 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>   (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-79380307-1', 'auto');
+ga('send', 'pageview');  </script>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2926823.js"></script>
+<!-- End of HubSpot Embed Code --></body>
+</html>

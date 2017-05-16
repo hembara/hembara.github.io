@@ -36,6 +36,7 @@ p, li{font-size:18px;line-height:140%;letter-spacing:0.0166px;color:#828282;}
 .article .preview-img{display:block;height:300px;width:100%;border-radius:4px;background-size:cover;}
 .article .preview-text{display:block;height:40%;width:100%;}
 .article .read-more{color:#2F80ED;}
+.article.article-7 .preview-img{background:url("../img/industries-benefits-cover.jpeg");background-size:100%;}
 .article.article-6 .preview-img{background:url("../img/young-audience-cover-min.jpeg");background-size:100%;}
 .article.article-5 .preview-img{background:url("../img/musement_contract.jpg");}
 .article.article-4 .preview-img{background:url("../img/messengerForBusiness.jpg");}

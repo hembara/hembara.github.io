@@ -135,6 +135,10 @@ h1, h2, p, a {
     text-decoration: underline;
 }
 
+.article.article-8 .preview-img {
+    background: url("../img/travel-industry-chatbot-cover-min.jpeg");
+    background-size: cover;
+}
 .article.article-7 .preview-img {
     background: url("../img/industries-benefits-cover.jpeg");
     background-size: cover;
