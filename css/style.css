@@ -116,7 +116,9 @@ a:active{text-decoration:none!important}
 .slide-4 .bot-example-wrapper{height:100%;}
 .slide-4 .bot-example{position:absolute;width:100%;visibility:visible;}
 .slide-4 .bot-example.blurred{opacity:.3;}
-.play-chat-btn{position:absolute;width:120px;height:120px;background:url("../img/play-chat.svg");top:50%;left:50%;transform:translate(-50%, -50%);cursor:pointer;}
+.play-chat-btn{position:absolute;width:120px;height:120px;background:url("../img/play-chat.svg");top:50%;left:50%;transform:translate(-50%, -50%);cursor:pointer;box-shadow:0 20px 40px rgba(0, 0, 0, 0.1);border-radius:100px}
+.play-chat-btn.blue{background:url("../img/play-chat-blue.svg");}
+.healthcare .play-chat-btn{}
 .slide-4 .middle{overflow:hidden;margin-bottom:160px;}
 .phrase-box{max-width:64%;border-radius:35px;font-size:18px;line-height:100%;padding:13px 20px;text-align:left;clear:both;}
 .phrase-box.person{margin-bottom:10px;background:#205EB4;color:#FFF;float:right;}
@@ -142,7 +144,17 @@ a:active{text-decoration:none!important}
 .slide-6 .bot-card .description-block{text-align:left;}
 .slide-6 .bot-card p.description{width:50%;font-weight:300;margin:20px 0;}
 .musement .inner{position:relative;margin-bottom:-66px;height:600px;background:url('../img/iphone6full.png') no-repeat center;}
+.musement .inner.pizza-chatbot{background:url('../img/pizza-chatbot.png') no-repeat center;}
+.musement .inner.slack-scheduling-chatbot{background:url('../img/slack-scheduling-bot.png') no-repeat center;}
+.musement .inner.car-rental-chatbot{background:url('../img/car-rental.png') no-repeat center;}
+.musement .inner.desktop{background:url('../img/macbook-video.png') no-repeat center;background-size:100%;margin-top:-66px;}
+.musement .inner.desktop.healthcare{background:url('../img/healthcare-chatbot.png') no-repeat center;background-size:100%;margin-top:-66px;}
 .musement.case .inner{background-size:100%;}
+#videoModal .modal-content{background:transparent;box-shadow:none;border:none}
+#videoModal .modal-header{border:none}
+#videoModal .modal-header .close{opacity:.8}
+#videoModal .modal-header .close:hover{opacity:1}
+.modal-video{width:100%;}
 .bot-video{width:254px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:999;}
 .case .bot-video{width:222px;}
 .progressbar-container{display:block;position:absolute;left:0;bottom:39%;width:100.3%;height:6%;}
@@ -219,7 +231,7 @@ a:active{text-decoration:none!important}
 .footer-inner a{float:left;clear:both;}
 .footer-inner a:hover{text-decoration:underline;}
 .footer-inner a,
-.footer-inner p{text-decoration:none;font-size:16px;margin-bottom:8px;font-weight:400;color:rgba(0, 0, 0, 0.8);}
+.footer-inner p{text-decoration:none;font-size:16px;margin-bottom:8px;font-weight:400;color:rgba(0, 0, 0, 0.8);word-wrap:break-word;}
 .footer-inner .heading{color:rgba(0, 0, 0, 0.5);margin-bottom:30px;border-bottom:none;}
 .footer-copyright{color:rgba(0, 0, 0, 0.2);margin:60px auto 30px auto;font-size:16px;font-weight:400;}
 #footer-logo{width:50px;height:50px;margin-left:75px;}
@@ -254,6 +266,7 @@ a:active{text-decoration:none!important}
 .slide-6 .bot-card p, .slide-6 .bot-card h2{text-align:left;}
 .menu-item.bot-btn.blue-dark-blue.messenger{float:left;}
 .footer-inner .location{padding-right:80px;}
+.bot-btn.white.text-blue.case-study{margin-bottom:20px}
 }
 @media (max-width:991px){.bot-btn.white-blue{}
 .slide-1 .inner{display:block;width:100%;text-align:center;position:absolute;top:40%;transform:translateY(-30%);}
@@ -478,6 +491,8 @@ a:active{text-decoration:none!important}
 .carousel-control > img{width:44px;}
 .musement.demo{margin-top:0;height:400px;}
 .musement .inner{width:200px;background-size:contain;height:400px;bottom:-44px;margin:0 auto;}
+.musement .inner.desktop{width:100%;}
+.musement .inner.pizza-chatbot,.musement .inner.slack-scheduling-chatbot,.musement .inner.car-rental-chatbot{background-size:100%}
 .bot-video{width:168px;}
 }
 @media screen and (max-height:450px){.overlay{overflow-y:auto;}
