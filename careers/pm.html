@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>BotsCrew Chatbots Development</title>
+  <link rel="icon" type="image/png" href="../img/logo.png">
+  <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+  <style>
+    body,
+    html {
+      width: 100%;
+      overflow-x: hidden
+    }
+
+    a,
+    p {
+      font-weight: 300;
+    }
+
+    h1,
+    h2 {
+      font-weight: 400;
+    }
+
+    h1,
+    h2,
+    p,
+    a {
+      font-family: "Roboto", sans-serif;
+    }
+
+    a,
+    a:hover,
+    a:visited,
+    a:active {
+      text-decoration: none;
+    }
+
+    p,
+    li {
+      font-size: 18px;
+    }
+
+    .header {
+      width: 100%
+    }
+
+    .nav-up {
+      top: -201px
+    }
+
+    .navbar {
+      border: none;
+      transition: top .3s ease-in-out;
+      background-color: #FFFFFF;
+    }
+
+    .menu-item {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      color: #FFFFFF!important
+    }
+
+    .bot-btn.white {
+      border: 1px solid #FFFFFF;
+      color:#FFFFFF!important;
+      background-color: rgba(256, 256, 256, .11) !important;
+      padding: 14px 28px;
+    }
+    .bot-btn:hover {
+      transition-duration: .5s;
+      text-decoration: none
+    }
+
+    .bot-btn:active {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 4px 0 rgba(0, 0, 0, 0.05)
+    }
+
+    .nav.navbar-nav.navbar-right>li>a.menu-item {
+      color: #4F4F4F !important;
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div id="headerInner">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top nav-down">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type = "button" class = "navbar-toggle" id="toggleNavBtn"
+                    data-toggle = "collapse" data-target = "#navbar" onclick="toggleNavOverlay()">
+              <span class = "sr-only">Toggle navigation</span>
+              <span class = "icon-bar"></span>
+              <span class = "icon-bar"></span>
+              <span class = "icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.svg" alt="BotsCrew logo"><span class="menu-item">BotsCrew</span></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../cases.html" class="menu-item">Cases</a></li>
+              <li><a href="../blog.html" class="menu-item">Blog</a></li>
+              <li><a href="../team.html" class="menu-item">Team</a></li>
+              <li class="careers"><a href="../careers.html" class="menu-item">Careers</a></li>
+              <li><a href="#contact" class="page-scroll menu-item bot-btn white text-blue noborder">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="blur"></div>
+  <div id="navOverlay" class="overlay"></div>
+</header>
+
+<section id="wrapper">
+  <div class="vacancy-header">
+    <div class="inner">
+      <h1>Project Manager</h1>
+      <p>Lviv, Ukraine</p>
+    </div>
+  </div>
+  <div class="vacancy-body">
+    <div class="inner">
+      <div class="demands">
+        <h1>Responsibilities</h1>
+        <ul class="skills-list">
+          <li>Lead and coordinate projects teams;</li>
+          <li>Ensure that all projects are delivered on-time with required quality;</li>
+          <li>Create and execute the detailed project plans;</li>
+          <li>Analyze and validate the estimates;</li>
+          <li>Work and cooperate effectively with teams;</li>
+          <li>Manage and assign individual tasks and responsibilities;</li>
+          <li>Measure project performance using appropriate systems, tools and techniques;</li>
+          <li>Report project status as needed;</li>
+          <li>Manage client`s expectations related to the project. Manage the relationship with the client and all stakeholders. Facilitate client’s communication;</li>
+          <li>Perform risk management to minimize project risk;</li>
+          <li>Lead and manage people growth and handle project operational activities;</li>
+        </ul>
+      </div>
+
+      <div class="demands">
+        <h1>Requirements</h1>
+        <ul class="skills-list">
+          <li>0-1 year of experience in project management in IT company;</li>
+          <li>Good understanding of IT services company;</li>
+          <li>Excellent knowledge of specialized project management software(JIRA);</li>
+          <li>Good knowledge of business process, operations, and metric definition best practices;</li>
+        </ul>
+      </div>
+
+      <div class="demands">
+        <h1>Skills:</h1>
+        <ul class="skills-list">
+          <li>Great oral and written communication skills;</li>
+          <li>Problem solving and critical mind;</li>
+          <li>Planning skills;</li>
+          <li>Decision making in risk situations;</li>
+          <li>Upper Intermediate or Advanced English;</li>
+        </ul>
+      </div>
+
+      <div class="demands">
+        <h1>Education:</h1>
+        <ul class="skills-list">
+          <li>Bachelor’s degree or higher in business, computer science or similar</li>
+        </ul>
+      </div>
+
+      <div class="demands">
+        <h1>We offer:</h1>
+        <ul class="skills-list">
+          <li>Full-time and flexible working schedule;</li>
+          <li>Friendly, young and outstanding team;</li>
+          <li>Comfortable working space in Lviv city center;</li>
+          <li>Opportunity to develop your skills;</li>
+          <li>Growing up in new area of chatbots development;</li>
+          <li>Possibility to participate in different courses, events, training sessions, seminars.</li>
+          <li>Competitive compensation with bonuses;</li>
+          <li>Team-buildings in mountains or abroad;</li>
+          <li>Tons of challenges and hard work;</li>
+          <li>4 working weeks paid vacation;</li>
+        </ul>
+      </div>
+
+      <h1 class="apply-heading">Apply now</h1>
+
+      <div class="apply-body container-fluid text-center">
+        <a href="http://m.me/botsmarket?ref=career" target="_blank" class="menu-item bot-btn white text-blue border-white contact-modal"><img src="../img/messenger_icon_blue.svg" class="fb-messenger-img"> Contact us in messenger</a>
+        <div class="middle">
+          <div class="form-container col-lg-offset-2 col-lg-8">
+            <form role="form" name="applyForm" class="apply-form" autocomplete="off" action="https://formspree.io/info@botscrew.com" method="POST" target="_blank">
+              <input type="text" name="Name" placeholder="Your name" required>
+              <input type="email" name="E-mail" placeholder="Your e-mail address" required>
+              <input type="text" name="Resume" placeholder="Link to resume or LinkedIn" required>
+
+              <textarea placeholder="Your message (optional)" rows="1" cols="33" name="Message" style="resize:none"></textarea>
+              <input type="button" onclick="validateApplyForm()" value="Send Message" class="menu-item bot-btn white text-blue modal-btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="col-xs-12 text-left footer-inner">
+    <div class="col-sm-3 logo-container hidden-xs">
+      <img src="../img/footer_logo.svg" id="footer-logo">
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2">
+      <p class="heading"><b>BotsCrew</b></p>
+      <a href="../cases.html">Cases</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../team.html">Team</a>
+      <a href="../careers.html">Careers</a>
+      <a href="../index.html#contact">Contact Us</a>
+    </div>
+    <div class="col-xs-5 col-sm-2">
+      <p class="heading"><b>Cases</b></p>
+      <a href="https://www.m.me/musement" target="_blank">Musement</a>
+      <a href="https://www.m.me/hungrychat" target="_blank">Hungry</a><a href="https://www.m.me/tecinstore" target="_blank">Tec InStore</a>
+
+
+
+    </div>
+    <div class="col-xs-offset-1 col-xs-6 col-sm-offset-0 col-sm-2 links">
+      <p class="heading"><b>Links</b></p>
+      <a href="https://www.facebook.com/botsmarket" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/bots.crew/" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/company/15139837" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/Bots_Crew" target="_blank">Twitter</a>
+    </div>
+    <div class="col-xs-5 col-sm-3 location">
+      <p class="heading"><b>Locations</b></p>
+      <p>
+        80 Franklin Street, Suite 1
+        New York, NY 10013, USA
+      </p>
+      <p>
+        20 Eastbourne Terrace,
+        London W2 6LG
+      </p>
+      <p>
+        223V, B.Khmelnytskoho str, Lviv, Ukraine
+      </p>
+    </div>
+  </div>
+  <div class="row col-sm-offset-3 col-sm-6">
+    <p class="footer-copyright">Copyright © 2016 - 2017 BotsCrew. All rights reserved.</p>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="../css/vacancy.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/vacancy.js"></script>
+<script src="../js/hiding_header.js"></script>
+<script defer src="../js/common_scripts.js"></script>
+<script defer src="../js/autosize.min.js"></script>
+<script defer src="../js/initAutosize.js"></script>
+<!-- Start of HubSpot Embed Code -->   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2926823.js"></script> <!-- End of HubSpot Embed Code --></body>
+</html>
