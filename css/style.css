@@ -412,7 +412,7 @@ a:active{text-decoration:none!important}
 .navbar-toggle.active .icon-bar:nth-of-type(4){top:-6px;transform:rotate(-45deg);}
 #navbar{-webkit-box-shadow:0 8px 6px -6px #999;-moz-box-shadow:0 8px 6px -6px #999;box-shadow:0 8px 6px -6px #999;}
 .logo{width:40px;}
-.nav.navbar-nav .page-scroll.menu-item.bot-btn.white.text-blue{border:none !important;border-radius:0;background-color:#FFFFFF !important;color:#4F4F4F !important;transition-duration:0.5s;}
+.nav.navbar-nav .page-scroll.menu-item.bot-btn.white.text-blue{border:none !important;border-radius:0;background-color:#FFFFFF !important;color:#4F4F4F !important;transition-duration:0.5s; }
 .slide-1 .heading{font-size:24px;}
 #type-it{font-size:102px;}
 .bot-btn.white-blue.noborder:hover{color:#2F80ED!important}
