@@ -270,10 +270,19 @@ a:active{text-decoration:none!important}
     margin-bottom: 60px;
     
 }
-
+.testimonials .brand-img{
+    height: 150px;
+    margin-top: -40px;
+    position: relative;
+     margin-bottom: 50px;
+}
 .testimonials .brand-img>img {
-    height: 60px;
+    height: auto;
     width: 100%;
+   
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
     
 }
 .testimonials .brand-img.smaller>img {
