@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://vars.hotjar.com/box-d831eecf6f5411af024c3acd759add17.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script>(function(){function g(a){return{get:function(b){var c=JSON.parse(a.getItem(b));return!c||Date.parse(c.expires)<=(new Date).getTime()?(a.removeItem(b),null):c.value},set:function(b,c,d){c={value:c,expires:d.toUTCString()};a.setItem(b,JSON.stringify(c))}}}function d(a,b,c,d){this.parseCommand=function(e,g){function k(){var a=JSON.stringify({messageId:q,value:l||!1});window.parent.postMessage(a,"*")}var f=p[a],m=e.action,n=e.key,q=e.messageId,h=e.siteId,h=d?n:n+":"+h,l=e.value,r=e.expiresMinutes||1440*
+(e.expiresDays||365),s=function(){var a=new Date;a.setTime(a.getTime()+6E4*r);return a}();if(!function(){var a={_hjSet:c,_hjGet:b}[m]||[];return 0<=a.indexOf("*")||0<=a.indexOf(g)}())throw Error("Command "+m+" not allowed on key: "+n);switch(m){case "_hjSet":f.set(h,l,s);break;case "_hjGet":l=f.get(h),k()}}}function k(a){try{var b=JSON.parse(a.data);b.key&&f[b.key]&&f[b.key].parseCommand(b,a.origin)}catch(c){return null}}var p;try{p={cookie:{get:function(a){return(a=RegExp("(?:^|; )"+a+"=([^;]*)").exec(document.cookie))?
+a[1]:void 0},set:function(a,b,c){document.cookie=a+"="+b+"; path=/; expires="+c.toUTCString()}},localStorage:g(localStorage),sessionStorage:g(sessionStorage)}}catch(t){return}var f={_hjOptOut:new d("cookie",["*"],["https://www.hotjar.com","https://local.hotjar.com","http://local.hotjar.com","https://insights-staging.hotjar.com","http://insights-staging.hotjar.com"],!0),grant_consent:new d("cookie",["*"],["*"],!1),screenshot_retake:new d("localStorage",["*"],["*"],!1)};window.addEventListener?window.addEventListener("message",
+k,!1):window.attachEvent("onmessage",k)})();
+</script>
+<script type="text/javascript">// Promises 
+var _eid_promises = {}; 
+// Turn the incoming message from extension 
+// into pending Promise resolving 
+window.addEventListener("message", function(event) { 
+    if(event.source !== window) return; 
+    if(event.data.src && (event.data.src === "background.js")) { 
+        console.log("Page received: "); 
+        console.log(event.data); 
+        // Get the promise 
+        if(event.data.nonce) { 
+            var p = _eid_promises[event.data.nonce]; 
+            // resolve 
+            if(event.data.result === "ok") { 
+                if(event.data.signature !== undefined) { 
+                    p.resolve({hex: event.data.signature}); 
+                } else if(event.data.version !== undefined) { 
+                    p.resolve(event.data.extension + "/" + event.data.version); 
+                } else if(event.data.cert !== undefined) { 
+                    p.resolve({hex: event.data.cert}); 
+                } else { 
+                    console.log("No idea how to handle message"); 
+                    console.log(event.data); 
+                } 
+            } else { 
+                // reject 
+                p.reject(new Error(event.data.result)); 
+            } 
+            delete _eid_promises[event.data.nonce]; 
+        } else { 
+            console.log("No nonce in event msg"); 
+        } 
+    } 
+}, false); 
+ 
+ 
+function TokenSigning() { 
+    function nonce() { 
+        var val = ""; 
+        var hex = "abcdefghijklmnopqrstuvwxyz0123456789"; 
+        for(var i = 0; i < 16; i++) val += hex.charAt(Math.floor(Math.random() * hex.length)); 
+        return val; 
+    } 
+ 
+    function messagePromise(msg) { 
+        return new Promise(function(resolve, reject) { 
+            // amend with necessary metadata 
+            msg["nonce"] = nonce(); 
+            msg["src"] = "page.js"; 
+            // send message 
+            window.postMessage(msg, "*"); 
+            // and store promise callbacks 
+            _eid_promises[msg.nonce] = { 
+                resolve: resolve, 
+                reject: reject 
+            }; 
+        }); 
+    } 
+    this.getCertificate = function(options) { 
+        var msg = {type: "CERT", lang: options.lang, filter: options.filter}; 
+        console.log("getCertificate()"); 
+        return messagePromise(msg); 
+    }; 
+    this.sign = function(cert, hash, options) { 
+        var msg = {type: "SIGN", cert: cert.hex, hash: hash.hex, hashtype: hash.type, lang: options.lang, info: options.info}; 
+        console.log("sign()"); 
+        return messagePromise(msg); 
+    }; 
+    this.getVersion = function() { 
+        console.log("getVersion()"); 
+        return messagePromise({ 
+            type: "VERSION" 
+        }); 
+    }; 
+}</script></head>
+<body>
+
+
+</body></html>

@@ -1,0 +1,324 @@
+(function () {
+  var scheme = (("https:" == document.location.protocol) ? "https" : "http");
+  var adnxs_domain = 'secure.adnxs.com';
+  var aol_domain = 'secure.leadback.advertising.com';
+  var rule = ["*", "*"];
+  if (scheme=='http') { adnxs_domain = 'ib.adnxs.com'; aol_domain = 'leadback.advertising.com';}
+  var el = document.createElement("div");
+  el.style["width"] = "1px";
+  el.style["height"] = "1px";
+  el.style["display"] = "inline";
+  el.style["position"] = "absolute";
+  var content = unescape('%3cimg%20height%3d%221%22%20width%3d%221%22%20style%3d%22border-style%3anone%3b%22%20alt%3d%22%22%20src%3d%22https%3a//d.adroll.com/cm/r/out%3fadvertisable%3dPTUGPCE65BEKNBO3NQS6NE%22/%3e%0a%3cimg%20height%3d%221%22%20width%3d%221%22%20style%3d%22border-style%3anone%3b%22%20alt%3d%22%22%20src%3d%22https%3a//d.adroll.com/cm/b/out%3fadvertisable%3dPTUGPCE65BEKNBO3NQS6NE%22/%3e%0a%3cimg%20height%3d%221%22%20width%3d%221%22%20style%3d%22border-style%3anone%3b%22%20alt%3d%22%22%20src%3d%22https%3a//d.adroll.com/cm/x/out%3fadvertisable%3dPTUGPCE65BEKNBO3NQS6NE%22/%3e%0a%3cimg%20height%3d%221%22%20width%3d%221%22%20style%3d%22border-style%3anone%3b%22%20alt%3d%22%22%20src%3d%22https%3a//d.adroll.com/cm/l/out%3fadvertisable%3dPTUGPCE65BEKNBO3NQS6NE%22/%3e%0a%3cimg%20height%3d%221%22%20width%3d%221%22%20style%3d%22border-style%3anone%3b%22%20alt%3d%22%22%20src%3d%22https%3a//d.adroll.com/cm/o/out%3fadvertisable%3dPTUGPCE65BEKNBO3NQS6NE%22/%3e%0a%3cimg%20height%3d%221%22%20width%3d%221%22%20style%3d%22border-style%3anone%3b%22%20alt%3d%22%22%20src%3d%22https%3a//d.adroll.com/cm/g/out%3fadvertisable%3dPTUGPCE65BEKNBO3NQS6NE%26google_nid%3dadroll5%22/%3e%0a');
+
+  var rollcrawl_opts = {
+      "regexp": null,
+      "blacklist_regexp": null,
+      "regexp_group": null,
+      "product_group_regexp": null,
+      "product_group_group": null
+  };
+
+  if (__adroll.consent_allowed(__adroll.consent_networks.facebook)) {
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','//connect.facebook.net/en_US/fbevents.js');
+  }
+
+  try {
+      try {
+          
+(function() {
+var rtb = document.createElement("div");
+rtb.style["width"] = "1px";
+rtb.style["height"] = "1px";
+rtb.style["display"] = "inline";
+rtb.style["position"] = "absolute";
+rtb.innerHTML = "<img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/aol/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/><img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/index/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/><img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/n/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/><img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/outbrain/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/><img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/pubmatic/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/><img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/taboola/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/><img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\"src=\"https://d.adroll.com/cm/triplelift/out?advertisable=PTUGPCE65BEKNBO3NQS6NE\"/>";
+__adroll._head().appendChild(rtb);
+})();
+
+      } catch(e) {}
+      try {
+          if (typeof window.adroll_version !== "undefined" && window.adroll_version == "2.0") {
+    function adrollIdentifyUser() {
+        if (window.adroll_email) {
+            window.adroll.identify({email: window.adroll_email});
+        }
+    }
+
+    function adrollSetProperties() {
+        var payload = {currency: window.adroll_currency || "", language: window.adroll_language || ""};
+        window.adroll.setProperties(payload);
+    }
+
+    var adrollProductPagePayload = adrollCartPagePayload = adrollCheckoutPagePayload = function() {
+        return {products: window.adroll_products || []};
+    };
+
+    function adrollSearchPagePayload() {
+        return {keywords: window.adroll_keywords || "", product_id: window.adroll_product_id || []};
+    }
+
+    function adrollProductsAddedToCartPayload() {
+        return {products: window.adroll_products_added_to_cart || []};
+    }
+
+    function adrollConversionPagePayload() {
+        return {
+            products: window.adroll_products || [],
+            order_id: window.adroll_order_id || "",
+            conversion_value: window.adroll_conversion_value || ""
+        };
+    }
+
+    function adrollTrackOnPageLoad() {
+        switch(window.adroll_current_page){
+            case 'home_page':
+                window.adroll.track('pageView');
+                window.adroll.track('homeView');
+                break;
+            case 'search_page':
+                window.adroll.track('pageView');
+                window.adroll.track('search', adrollSearchPagePayload());
+                break;
+            case 'product_page':
+                window.adroll.track('pageView', {segment_name: 'woocommerce_viewed_product'});
+                window.adroll.track('productView', adrollProductPagePayload());
+                break;
+            case 'cart_page':
+                window.adroll.track('pageView', {segment_name: 'woocommerce_viewed_cart'});
+                window.adroll.track('cartView', adrollCartPagePayload());
+                break;
+            case 'checkout_page':
+                window.adroll.track('pageView', {segment_name: 'woocommerce_checkout'});
+                window.adroll.track('checkoutStart', adrollCheckoutPagePayload());
+                break;
+            case 'conversion_page':
+                var purchasePayload = adrollConversionPagePayload();
+                window.adroll.track('purchase', purchasePayload);
+                var pageViewPayload = JSON.parse(JSON.stringify(purchasePayload));
+                pageViewPayload.segment_name = 'woocommerce_order_received';
+                window.adroll.track('pageView', pageViewPayload);
+                break;
+            default:
+                window.adroll.track('pageView');
+        }
+
+        // When products get added to the cart, the global woocommerce_added_product_to_cart gets set on the next page
+        // load, regardless of which page it is. So we must check if it exists on every page load, and fire the event.
+        if (window.adroll_products_added_to_cart) {
+            window.adroll.track('pageView', {segment_name: 'woocommerce_added_product_to_cart'});
+            window.adroll.track('addToCart', adrollProductsAddedToCartPayload());
+        }
+    }
+
+    function adrollSetupClickListeners() {
+        function trackAddToCartSegment() {
+            window.adroll.track('pageView', {segment_name: 'woocommerce_added_product_to_cart'});
+        }
+
+        var elementLists = [
+            document.querySelectorAll("button[class*='add-to-cart']"),
+            document.querySelectorAll("button[class*='add_to_cart']"),
+            document.querySelectorAll("button[name*='add-to-cart']"),
+            document.querySelectorAll("button[name*='add_to_cart']"),
+            document.querySelectorAll("a[class*='add-to-cart']"),
+            document.querySelectorAll("a[class*='add_to_cart']"),
+            document.querySelectorAll("a[href*='add-to-cart']"),
+            document.querySelectorAll("a[href*='add_to_cart']"),
+            document.querySelectorAll("div[class*='add-to-cart']"),
+            document.querySelectorAll("div[class*='add_to_cart']")
+        ];
+
+        for (var i = 0; i < elementLists.length; i++) {
+            var elementList = elementLists[i];
+            for (var j = 0; j < elementList.length; j++) {
+                var element = elementList[j];
+                element.addEventListener('click', trackAddToCartSegment);
+            }
+        }
+    }
+
+    adrollIdentifyUser();
+    adrollSetProperties();
+    adrollTrackOnPageLoad();
+    try{adrollSetupClickListeners();}catch(e){}
+} else {
+    if (__adroll.extract_pid.toString().indexOf("window.adroll_dco_woocommerce_loaded") == -1) {
+        __adroll.extract_pid = function(opts, service_name, log_pid_fn) {
+            var getProduct = function () {
+                if (window.hasOwnProperty("adroll_product_id")) {
+                    return window.adroll_product_id;
+                }
+            }.bind(this)
+
+            var logProduct = function (product_id) {
+                if (!!product_id && document.getElementsByClassName("single-product").length > 0) {
+                    log_pid_fn({"product_id": product_id});
+                }
+                else if (this.facebook_dummy_product_enabled() && service_name === "facebook") {
+                    log_pid_fn({"product_id": "adroll_dummy_product"});
+                }
+            }.bind(this)
+
+            var setCartListener = function (el, product_id) {
+                var cart_clicked = false;
+                el.addEventListener("click", function(event) {
+                    if (!cart_clicked) {
+                        cart_clicked = true;
+                        log_pid_fn({
+                            "product_id": product_id,
+                            "product_action": "AddToCart"
+                        });
+                    }
+                });
+            }.bind(this)
+
+            var logCart = function (product_id) {
+                var single_page_button = document.getElementsByClassName("single_add_to_cart_button")[0];
+                if (!!product_id && single_page_button != undefined) {
+                    setCartListener(single_page_button, product_id);
+                }
+
+                var ajax_buttons = document.getElementsByClassName("ajax_add_to_cart");
+                for (var i = 0; i < ajax_buttons.length; i++){
+                    setCartListener(ajax_buttons[i], ajax_buttons[i].getAttribute('data-product_id'));
+                }
+            }.bind(this)
+
+            var logCheckout = function () {
+                if (window.hasOwnProperty("adroll_checkout_ids")) {
+                    for (var i = 0; i < window.adroll_checkout_ids.length; i++) {
+                        log_pid_fn({
+                            'product_id': window.adroll_checkout_ids[i],
+                            'product_action': 'Purchase'
+                        });
+                    }
+                }
+            }.bind(this)
+
+            if (!window.adroll_dco_woocommerce_loaded) {
+                window.adroll_dco_woocommerce_loaded = {};
+            }
+
+            if (!window.adroll_dco_woocommerce_loaded[service_name]) {
+                window.adroll_dco_woocommerce_loaded[service_name] = true;
+                var product_id = getProduct();
+                logProduct(product_id);
+                logCart(product_id);
+                logCheckout();
+            }
+        }
+    }
+}
+
+      } catch(e) {}
+      try {
+          (function(){
+        window.adroll_sendrolling_hashed_only = true;
+        var scr = document.createElement("script");
+        scr.type = "text/javascript";
+        scr.src = "//s.adroll.com/j/sendrolling.js";
+        ((document.getElementsByTagName("head") ||
+        [null])[0] ||
+        document.getElementsByTagName("script")[0].parentNode).appendChild(scr);
+    })();
+      } catch(e) {}
+      try {
+          __adroll.extract_pid(rollcrawl_opts, "facebook", function(pid){
+    if (__adroll.consent_allowed(__adroll.consent_networks.facebook)) {
+        if(pid) {
+          if(!pid.product_action) {
+            pid.product_action = "ViewContent";
+          } else if(pid.product_action == "Purchase"){
+            pid.product_action = "CustomPurchase";
+          }
+          var product_id_param = "";
+          if(pid.product_id instanceof Array) {
+            product_id_param = "[";
+            for (var i = 0; i < pid.product_id.length; i++) {
+              var x = __adroll.normalize_var(pid.product_id[i].replace("\"", "\\\"")).toLowerCase() + "_";
+              if (pid.product_group) {
+                x += __adroll.normalize_var(pid.product_group + '').toLowerCase();
+              }
+              product_id_param += "\"" + x + "\"";
+              if (i < pid.product_id.length - 1) {
+                product_id_param += ",";
+              }
+            }
+            product_id_param = encodeURIComponent(product_id_param + "]");
+          } else {
+            product_id_param = encodeURIComponent(__adroll.normalize_var(pid.product_id + '').toLowerCase()) + "_";
+            if (pid.product_group) {
+                product_id_param += encodeURIComponent(__adroll.normalize_var(pid.product_group + '').toLowerCase());
+            }
+          }
+
+
+          var url = __adroll._srv("/fb/tr/?id=672828269765698" +
+                                  "&ev=" + encodeURIComponent(pid.product_action) +
+                                  "&cd[content_type]=product" +
+                                  "&cd[content_ids]=" + product_id_param +
+                                  "&cd[application_id]=321379434608647" +
+                                  "&cd[product_catalog_id]=335484857270775");
+          var img = document.createElement("img");
+          img.src = url;
+          img.height = img.width = 1;
+          img.border = 0;
+          __adroll._head().appendChild(img);
+        }
+    }
+});
+
+      } catch(e) {}
+      try {
+          if (__adroll.consent_allowed(__adroll.consent_networks.facebook)) {
+    if(typeof __adroll.fb === 'undefined'){
+    fbq('init', '672828269765698');
+    fbq('set', 'autoConfig', 'false', '672828269765698');
+    __adroll.fb=true;
+
+    var __fbcd = {segment_eid: "WJ5K6Q7FD5BLXLAS4RFSAF"};
+    for (var prop in __adroll.get_external_data()){
+        __fbcd['ar_' + prop] = __adroll.get_external_data()[prop];
+    }
+
+    fbq('track', "PageView", __fbcd);
+
+
+    } else {
+    var __fbcd = {event: "EventSegment", segment_eid: "WJ5K6Q7FD5BLXLAS4RFSAF"};
+    for (var prop in __adroll.get_external_data()){
+        __fbcd['ar_' + prop] = __adroll.get_external_data()[prop];
+    }
+
+    fbq('track', "CustomEvent", __fbcd);
+
+    }
+}
+
+      } catch(e) {}
+  } catch(e) {}
+
+  __adroll.get_pid(rollcrawl_opts);
+
+  var r = Math.random()*10000000000000000;
+  content = content.replace(/\[ord\]/gi, r);
+  content = content.replace(/\[protocol\]/gi, scheme);
+  content = content.replace(/\[adnxs_domain\]/gi, adnxs_domain);
+  content = content.replace(/\[aol_domain\]/gi, aol_domain);
+  var adroll_tpc = __adroll._global('adroll_tpc');
+  if (adroll_tpc) {
+    var srv_parts = __adroll._srv().split('?');
+    var srv_host = srv_parts[0].substr(srv_parts[0].indexOf(':') + 1);
+    var srv_re = new RegExp(srv_host + '([^\?\"\'\>\#\S]+)\\?*', 'gi');
+    content = content.replace(srv_re, srv_host + '$1?' + srv_parts[1] + '&');
+  }
+  content = __adroll.replace_external_data(content);
+  el.innerHTML = content;
+  __adroll._head().appendChild(el);
+  if (typeof __adroll.set_pixel_cookie != 'undefined') {__adroll.set_pixel_cookie(adroll_adv_id, adroll_pix_id, "WJ5K6Q7FD5BLXLAS4RFSAF");}
+}());
